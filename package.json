@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-casper",
-  "description": "GatsbyJS starter that themed with the Casper theme from Ghost.",
-  "version": "1.0.7",
-  "author": "Hays Clark <hays.clark@gmail.com>",
+  "name": "productlife",
+  "description": "Learn how to create your own products that are useful and make money.",
+  "version": "1.0.0",
+  "author": "Hays Stanford <stanfordhays@gmail.com>",
   "dependencies": {
     "babel-eslint": "^8.1.2",
     "babel-plugin-lodash": "^3.2.11",
