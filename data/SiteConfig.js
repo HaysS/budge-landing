@@ -6,7 +6,7 @@ module.exports = {
   siteTitleAlt: "ProductLife | Learn JavaScript With Products", // Alternative site title for SEO.
   siteLogo:
     "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
-  siteUrl: "https://productlife.netlify.com/", // Domain of your website without pathPrefix.
+  siteUrl: "https://productlife.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
     "Learn how to create products with JavaScript.", // Website description used for RSS feeds/meta description tag.
