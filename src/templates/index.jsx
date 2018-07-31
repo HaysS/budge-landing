@@ -15,6 +15,7 @@ import MenuButton from "../components/MenuButton/MenuButton";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PageDescription from "../components/PageDescription/PageDescription";
 import PageEmailForm from "../components/PageEmailForm/PageEmailForm";
+import ProductVote from "../components/ProductVote/ProductVote";
 import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 

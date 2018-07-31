@@ -1,7 +1,7 @@
 import React from "react";
-import "./PageEmailForm.css";
+import "./ProductVote.css";
 
-class PageEmailForm extends React.Component {
+class ProductVote extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -36,4 +36,4 @@ class PageEmailForm extends React.Component {
   }
 }
 
-export default PageEmailForm;
+export default ProductVote;
