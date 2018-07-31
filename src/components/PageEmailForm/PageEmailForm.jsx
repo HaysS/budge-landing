@@ -1,5 +1,5 @@
 import React from "react";
-import "./PageDescription.css";
+import "./PageEmailForm.css";
 
 class PageEmailForm extends React.Component {
   render() {
