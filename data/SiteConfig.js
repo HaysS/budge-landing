@@ -9,7 +9,7 @@ module.exports = {
   siteUrl: "https://productlife.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "Learn how to create products with JavaScript.", // Website description used for RSS feeds/meta description tag.
+    "Learn JavaScript by building things. Don't waste time being bored.", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "#", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
