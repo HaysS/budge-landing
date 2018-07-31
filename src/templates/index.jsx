@@ -81,6 +81,7 @@ class IndexTemplate extends React.Component {
                 <div className="main-header-content inner">
                   <PageTitle text={config.siteTitle} />
                   <PageDescription text={config.siteDescription} />
+                  <PageEmailForm text={config.siteDescription} />
                 </div>
               </div>
               <Link
