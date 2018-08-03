@@ -12,7 +12,7 @@
 }
 
 .main-header .inner {
-    width: 80%;
+    max-width: 80%;
 }
 
 @media screen and (min-width: 850px) {
@@ -21,7 +21,8 @@
     }
 
     .col {
-        flex: 50%;
+        flex: 40%;
+        padding: 0 5%;
     }
 }
 

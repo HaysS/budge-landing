@@ -82,16 +82,18 @@ class IndexTemplate extends React.Component {
                 />
               </MainNav>
               <div className="vertical">
-                <div className="main-header-content inner row">
-                  <div className="col">
-                    <PageTitle text={config.siteTitle} />
-                    <PageDescription text={config.siteDescription} />
-                    {/*<ProductVote />*/}
-                    <PageEmailForm />
-                  </div>
+                <div className="main-header-content inner">
+                  <div className="row">
+                    <div className="col left">
+                      <PageTitle text={config.siteTitle} />
+                      <PageDescription text={config.siteDescription} />
+                      {/*<ProductVote />*/}
+                      <PageEmailForm />
+                    </div>
 
-                  <div className="col">
-                    <img src={gifUrl} alt="Example Gif" style={{maxWidth: "100%", height: "auto"}}/>
+                    <div className="col right">
+                      <img src={gifUrl} alt="Example Gif" style={{maxWidth: "100%", height: "auto"}}/>
+                    </div>
                   </div>
                 </div>
               </div>
