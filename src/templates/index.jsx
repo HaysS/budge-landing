@@ -86,7 +86,7 @@ class IndexTemplate extends React.Component {
                   <ProductVote />
                 </div>
               </div>
-              <Link
+              {/*<Link
                 className="scroll-down icon-arrow-left"
                 to="content"
                 data-offset="-45"
@@ -95,9 +95,9 @@ class IndexTemplate extends React.Component {
                 duration={500}
               >
                 <span className="hidden">Scroll Down</span>
-              </Link>
+              </Link>*/}
             </MainHeader>
-
+            {/*
             <PaginatedContent
               page={page}
               pages={pages}
@@ -106,9 +106,12 @@ class IndexTemplate extends React.Component {
               prev={prev}
               next={next}
             >
+            */}
               {/* PostListing component renders all the posts */}
+            {/*
               <PostListing postEdges={nodes} postAuthors={authorsEdges} />
             </PaginatedContent>
+            */}
           </div>
 
           {/* The tiny footer at the very bottom */}
