@@ -75,10 +75,10 @@ class IndexTemplate extends React.Component {
             {/* The big featured header */}
             <MainHeader cover={config.siteCover}>
               <MainNav overlay={config.siteCover}>
-                <MenuButton
+                {/*<MenuButton
                   navigation={config.siteNavigation}
                   onClick={this.handleOnClick}
-                />
+                />*/}
               </MainNav>
               <div className="vertical">
                 <div className="main-header-content inner">
