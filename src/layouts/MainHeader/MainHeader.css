@@ -11,6 +11,10 @@
     overflow: hidden;
 }
 
+.gradient-background {
+    background: linear-gradient(-90deg, red, yellow);;
+}
+
 .main-header .inner {
     max-width: 80%;
 }
