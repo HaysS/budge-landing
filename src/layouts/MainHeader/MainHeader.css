@@ -15,6 +15,14 @@
     width: 80%;
 }
 
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 50%;
+}
+
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
    on photos which happen to have a light background. */
 .home-template .main-header::after {
