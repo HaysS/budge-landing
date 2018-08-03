@@ -18,7 +18,7 @@ class MainHeader extends React.Component {
     };
 
     return (
-      <header className={classes} style={getStyle()}>
+      <header className={classes} style={{backgroundColor: "#1AB697"}}>
         {children}
       </header>
     );
