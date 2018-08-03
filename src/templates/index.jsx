@@ -19,7 +19,7 @@ import ProductVote from "../components/ProductVote/ProductVote";
 import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
-import exampleGif from '.'
+const gifUrl = './images/sample-project-cropped.gif'
 
 class IndexTemplate extends React.Component {
   state = {
@@ -61,6 +61,7 @@ class IndexTemplate extends React.Component {
     const authorsEdges = this.props.data.authors.edges;
 
     return (
+
       <Drawer className="home-template" isOpen={this.state.menuOpen}>
         <Helmet title={config.siteTitle} />
         <SEO postEdges={nodes} />
@@ -86,7 +87,7 @@ class IndexTemplate extends React.Component {
                   <PageDescription text={config.siteDescription} />
                   {/*<ProductVote />*/}
                   <PageEmailForm />
-
+                  <img src={gifUrl} alt="Example Gif" style={{maxWidth: "100%", height: "auto"}}/>
                 </div>
               </div>
               {/*<Link
