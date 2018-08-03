@@ -19,7 +19,7 @@ import ProductVote from "../components/ProductVote/ProductVote";
 import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
-const gifUrl = './images/sample-project-cropped.gif'
+const gifUrl = './images/sample-project-2.gif'
 
 class IndexTemplate extends React.Component {
   state = {
