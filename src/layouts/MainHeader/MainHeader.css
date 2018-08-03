@@ -15,14 +15,22 @@
     width: 80%;
 }
 
-.row {
-    display: flex;
+@media screen and (min-width: 850px) {
+    .row {
+        display: flex;
+    }
+
+    .col {
+        flex: 50%;
+    }
 }
 
-.col {
-    flex: 50%;
+@media screen and (max-width: 850px) {
+    .col {
+        padding-bottom: 10%;
+    }
 }
-
+    
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
    on photos which happen to have a light background. */
 .home-template .main-header::after {
