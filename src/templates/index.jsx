@@ -19,6 +19,8 @@ import ProductVote from "../components/ProductVote/ProductVote";
 import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
+import exampleGif from '.'
+
 class IndexTemplate extends React.Component {
   state = {
     menuOpen: false
@@ -82,8 +84,9 @@ class IndexTemplate extends React.Component {
                 <div className="main-header-content inner">
                   <PageTitle text={config.siteTitle} />
                   <PageDescription text={config.siteDescription} />
-                  {/*<PageEmailForm />*/}
-                  <ProductVote />
+                  {/*<ProductVote />*/}
+                  <PageEmailForm />
+
                 </div>
               </div>
               {/*<Link

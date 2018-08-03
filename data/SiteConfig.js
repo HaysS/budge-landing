@@ -11,7 +11,7 @@ module.exports = {
   siteDescription:
     "Learn JavaScript by building things. Don't waste time being bored.", // Website description used for RSS feeds/meta description tag.
   siteCover:
-    "#", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+    "/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Hays Stanford", // The author name used in the RSS file
