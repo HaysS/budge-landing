@@ -21,12 +21,22 @@
 
 @media screen and (min-width: 850px) {
     .row {
+        display: -webkit-flex;
+        display: -ms-flexbox;
         display: flex;
     }
 
     .col {
-        flex: 40%;
-        padding: 0 5%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .left {
+        flex: 55%;
+    }
+
+    .right {
+        flex: 35%;
     }
 }
 

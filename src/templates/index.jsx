@@ -91,9 +91,9 @@ class IndexTemplate extends React.Component {
                       <FancyButton text="Learn More" />
                     </div>
 
-                    {/*<div className="col right">
+                    <div className="col right">
                       <img src={gifUrl} alt="Example Gif" style={{maxWidth: "100%", height: "auto"}}/>
-                    </div>*/}
+                    </div>
                   </div>
                 </div>
               </div>
