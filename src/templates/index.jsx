@@ -7,6 +7,7 @@ import config from "../../data/SiteConfig";
 import Drawer from "../layouts/Drawer/Drawer";
 import Navigation from "../components/Navigation/Navigation";
 import SiteWrapper from "../layouts/SiteWrapper/SiteWrapper";
+import FancyButton from "../components/FancyButton/FancyButton";
 import Footer from "../components/Footer/Footer";
 import MainHeader from "../layouts/MainHeader/MainHeader";
 import MainNav from "../layouts/MainNav/MainNav";
@@ -87,7 +88,7 @@ class IndexTemplate extends React.Component {
                       <PageTitle text={config.siteTitle} />
                       <PageDescription text={config.siteDescription} />
                       {/*<ProductVote />*/}
-                      <PageEmailForm />
+                      <FancyButton text="Learn More" />
                     </div>
 
                     {/*<div className="col right">
@@ -102,8 +103,7 @@ class IndexTemplate extends React.Component {
                 data-offset="-45"
                 spy
                 smooth
-                duration={500}
-              >
+                duration={500}>
                 <span className="hidden">Scroll Down</span>
               </Link>
             </MainHeader>
