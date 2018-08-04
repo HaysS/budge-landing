@@ -81,7 +81,7 @@
 @media only screen and (max-width: 500px) {
     .fancy-button {
         padding: 3% 3%;
-        font-size: 20px;
+        font-size: 18px;
         border-radius: 10px;
         border-width: 1;
         background-color: rgba(0, 0, 0, 0.1);
@@ -90,26 +90,8 @@
 
     .fancy-button:hover {
         padding: 3% 3%;
-        font-size: 20px;
+        font-size: 21px;
         border-radius: 10px;
-        border-color: transparent;
-        background-color: rgba(240, 240, 240, 0.5);
-        color: #222;
-    }
-
-    .nav-opened .fancy-button {
-        background: none;
-        border: transparent;
-        color: #222;
-    }
-
-    .no-cover .main-nav.overlay .fancy-button {
-        border: none;
-        color: #222;
-    }
-
-    .main-nav.overlay .fancy-button {
-        border-color: transparent;
-        color: #222;
+        background-color: rgba(0, 0, 0, 0.45);
     }
 }
