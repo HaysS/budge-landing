@@ -3,19 +3,21 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
-    padding: 3% 3%;
+    margin: 1.5em 1.5em;
+    padding: 1em 1.5em;
     border-style: solid;
     border-width: 1px;
     opacity: 1;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     text-transform: uppercase;
-    line-height: 35px;
+    line-height: 10px;
     white-space: nowrap;
     border-radius: 3px;
     transition: all 0.5s ease;
     background-color: rgba(0, 0, 0, 0.1);
     text-decoration: none;
+    margin-bottom: 0px;
 }
 
 .fancy-button::before {
@@ -26,9 +28,10 @@
 }
 
 .fancy-button:hover {
-    margin: 0.5% 0.5%;
-    padding: 2.5% 2.5%;
-    font-size: 40px;
+    margin-top: 1.7em;
+    margin-bottom: 0.7em;
+    padding: 1em;
+    font-size: 35px;
     background-color: rgba(0, 0, 0, 0.45);
 }
 
@@ -80,7 +83,9 @@
 
 @media only screen and (max-width: 500px) {
     .fancy-button {
-        padding: 3% 3%;
+        margin-top: 1em;
+        margin-bottom: 9px;
+        padding: 1em 1em;
         font-size: 18px;
         border-radius: 10px;
         border-width: 1;
@@ -89,7 +94,9 @@
     }
 
     .fancy-button:hover {
-        padding: 3% 3%;
+        margin-top: 1em;
+        margin-bottom: 0px;
+        padding: 1em 1em;
         font-size: 21px;
         border-radius: 10px;
         background-color: rgba(0, 0, 0, 0.45);
