@@ -8,27 +8,28 @@
     border-width: 1px;
     opacity: 1;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
     line-height: 35px;
     white-space: nowrap;
     border-radius: 3px;
     transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.1);
     text-decoration: none;
 }
 
 .fancy-button::before {
+    background-color: rgba(0, 0, 0, 0.1);
     font-weight: bold;
-    margin-right: 6px;
     position: relative;
     top: 1px;
 }
 
 .fancy-button:hover {
-    margin: 1% 1%;
-    padding: 2% 2%;
-    font-size: 50px;
-    background: #fff;
+    margin: 0.5% 0.5%;
+    padding: 2.5% 2.5%;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.45);
 }
 
 .fancy-button:focus {
@@ -42,7 +43,7 @@
 }
 
 .nav-closed .fancy-button:hover {
-    color: #222;
+    color: rgba(233, 255, 255, 1);
 }
 
 /* When the navigation is closed and there is no cover image */
@@ -73,39 +74,42 @@
     transition: all 0.3s ease;
 }
 
-.icon-fancy::before {
-    content: "\f609";
-}
-
 /* ==========================================================================
       Media Queries - Smaller than 500px
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
     .fancy-button {
-        padding: 0 5px;
-        border-radius: 0;
-        border-width: 0;
-        color: #2e2e2e;
-        background: transparent;
+        padding: 3% 3%;
+        font-size: 20px;
+        border-radius: 10px;
+        border-width: 1;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: #222;
     }
 
     .fancy-button:hover {
-        color: #2e2e2e;
+        padding: 3% 3%;
+        font-size: 20px;
+        border-radius: 10px;
         border-color: transparent;
-        background: none;
+        background-color: rgba(240, 240, 240, 0.5);
+        color: #222;
     }
 
     .nav-opened .fancy-button {
         background: none;
         border: transparent;
+        color: #222;
     }
 
     .no-cover .main-nav.overlay .fancy-button {
         border: none;
+        color: #222;
     }
 
     .main-nav.overlay .fancy-button {
         border-color: transparent;
+        color: #222;
     }
 }
