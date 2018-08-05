@@ -7,9 +7,9 @@ class FancyButton extends Component {
 
     const showText = function() {return text ? text : () => { return " " }}
     return (
-      <a className="fancy-button" href="#menu" onClick={onClick ? onClick : () => { return null }}>
+      <div className="fancy-button" href="#menu" onClick={onClick ? onClick : () => { return null }}>
         <span className="word">{showText()}</span>
-      </a>
+      </div>
     );
   }
 }

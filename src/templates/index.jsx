@@ -14,6 +14,7 @@ import MainNav from "../layouts/MainNav/MainNav";
 import BlogLogo from "../components/BlogLogo/BlogLogo";
 import MenuButton from "../components/MenuButton/MenuButton";
 import PageTitle from "../components/PageTitle/PageTitle";
+import PageImage from "../components/PageImage/PageImage";
 import PageDescription from "../components/PageDescription/PageDescription";
 import PageEmailForm from "../components/PageEmailForm/PageEmailForm";
 import ProductVote from "../components/ProductVote/ProductVote";
@@ -95,7 +96,7 @@ class IndexTemplate extends React.Component {
                     </div>
 
                     <div className="col right">
-                      <img src={gifUrl} alt="Example Gif" style={{maxWidth: "100%", height: "auto"}}/>
+                      <PageImage imageUrl={gifUrl} />
                     </div>
                   </div>
                 </div>
