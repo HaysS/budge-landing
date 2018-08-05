@@ -76,10 +76,12 @@ class IndexTemplate extends React.Component {
           <div className="home-template">
             {/* The big featured header */}
             <MainHeader cover={config.siteCover}>
+              {/*
               <MainNav overlay={config.siteCover}>
-                <PageTitle text={config.siteTitle} />
               </MainNav>
+              */}
               <div className="vertical">
+                <PageTitle text={config.siteTitle} />
                 <div className="main-header-content inner">
                   <div className="row">
                     <div className="col left">
@@ -100,6 +102,9 @@ class IndexTemplate extends React.Component {
                     </div>
                   </div>
                 </div>
+                <br />
+                <br />
+                <br />
               </div>
               <Link
                 className="scroll-down icon-arrow-left"

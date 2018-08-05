@@ -1,7 +1,9 @@
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     font-size: 5rem;
+    padding-bottom: 1em;
     letter-spacing: -1px;
+    height: 50px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     color: #fff;
