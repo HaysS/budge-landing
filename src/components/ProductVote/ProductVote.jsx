@@ -1,4 +1,6 @@
 import React from "react";
+import FancyButton from "../FancyButton/FancyButton"
+
 import "./ProductVote.css";
 
 class ProductVote extends React.Component {
@@ -22,15 +24,15 @@ class ProductVote extends React.Component {
 
     return(
       <div className="product-vote">
-        <h1 className={"title"}>Which idea do you want to build the most?</h1>
+        <h1 className="title">What do you want to do first?</h1>
         <form name="landing-page-emails" action="#" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
       		{/*Hiddin inputs necessary for use with Netlify hosting to use free form function*/}
           <input type="hidden" name="form-name" value="landing-page-emails" />
           <input type="hidden" name="bot-field" />
-          <label>Mobile app 1 </label><input required type="radio" name="vote" value="1" /><br />
-          <label>Mobile app 2 </label><input required type="radio" name="vote" value="2" /><br />
-          <label>Mobile app 3 </label><input required type="radio" name="vote" value="3" /><br />
-          <input type="submit" value="Submit" />
+          <label><input required type="radio" name="vote" value="1" /></label><FancyButton text="Rebuild Facebook From Scratch" /><br />
+          <label><input required type="radio" name="vote" value="1" /></label><FancyButton text="Create a web app to help manage money" /><br />
+          <label><input required type="radio" name="vote" value="1" /></label><FancyButton text="Mobile app 1" /><br />
+          <input type="submit" value="submit" />
         </form>
       </div>
     )
