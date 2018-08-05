@@ -21,7 +21,7 @@ class ProductVote extends React.Component {
   	const { text } = this.props;
 
     return(
-      <div className="page-description">
+      <div className="product-vote">
         <h1 className={"title"}>Which idea do you want to build the most?</h1>
         <form name="landing-page-emails" action="#" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
       		{/*Hiddin inputs necessary for use with Netlify hosting to use free form function*/}
