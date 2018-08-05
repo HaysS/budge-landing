@@ -75,19 +75,15 @@ class IndexTemplate extends React.Component {
           <div className="home-template">
             {/* The big featured header */}
             <MainHeader cover={config.siteCover}>
-              {/*<MainNav overlay={config.siteCover}>
-                <MenuButton
-                  navigation={config.siteNavigation}
-                  onClick={this.handleOnClick}
-                />
-              </MainNav>*/}
+              <MainNav overlay={config.siteCover}>
+                <PageTitle text={config.siteTitle} />
+              </MainNav>
               <div className="vertical">
                 <div className="main-header-content inner">
                   <div className="row">
                     <div className="col left">
-                      <PageTitle text={config.siteTitle} />
                       <PageDescription text={config.siteDescription} />
-                      {/*<ProductVote />*/}
+                      <ProductVote />
                       <Link
                         to="content"
                         data-offset="-45"
