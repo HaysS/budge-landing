@@ -1,3 +1,7 @@
+.page-image {
+	margin: auto;
+}
+
 /* Add subtle load-in animation for content on the home page */
 .home-template .page-image {
     -webkit-animation: fade-in-down 0.9s;
