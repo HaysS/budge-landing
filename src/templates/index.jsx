@@ -115,8 +115,19 @@ class IndexTemplate extends React.Component {
                 <span className="hidden">Scroll Down</span>
               </Link>
             </MainHeader>
+            <div id="tools" style={{textAlign: 'center'}}>
+              <h2 style={{color: "black", paddingBottom: '20px'}}>We use React and Node.js to teach you JavaScript!</h2>
+              <PageImage imageUrl={'./images/node-js-logo.png'} />
+              <PageImage imageUrl={'./images/react-logo.png'} />
+              <br />
+            </div>
+            <div id="testimonials" style={{textAlign: 'center'}}>
+              <h2 style={{color: "black", paddingBottom: '20px'}}>Here's what people are saying: I love this course!</h2>
+              <br />
+              <br />
+            </div>
             <div id="content" style={{textAlign: 'center'}}>
-              <h2 style={{color: "black", paddingBottom: '20px'}}>alsdjflkasjdlkfajsdlkfjaslkdjf</h2>
+              <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
               <PageEmailForm />
             </div>
             {/*
