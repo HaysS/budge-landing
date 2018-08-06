@@ -29,9 +29,9 @@ class ProductVote extends React.Component {
       		{/*Hiddin inputs necessary for use with Netlify hosting to use free form function*/}
           <input type="hidden" name="form-name" value="landing-page-emails" />
           <input type="hidden" name="bot-field" />
-          <label><input required type="radio" name="vote" value="1" /></label><FancyButton text="Rebuild Facebook From Scratch" /><br />
+          <label><input required type="radio" name="vote" value="0" /></label><FancyButton text="Rebuild Facebook From Scratch" /><br />
           <label><input required type="radio" name="vote" value="1" /></label><FancyButton text="Create a web app to help manage money" /><br />
-          <label><input required type="radio" name="vote" value="1" /></label><FancyButton text="Mobile app 1" /><br />
+          <label><input required type="radio" name="vote" value="2" /></label><FancyButton text="Build a Reddit bot" /><br />
           <input type="submit" value="submit" />
         </form>
       </div>
