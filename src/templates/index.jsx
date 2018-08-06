@@ -115,7 +115,7 @@ class IndexTemplate extends React.Component {
                 <span className="hidden">Scroll Down</span>
               </Link>
             </MainHeader>
-            <div style={{textAlign: 'center'}}>
+            <div id="content" style={{textAlign: 'center'}}>
               <h2 style={{color: "black", paddingBottom: '20px'}}>alsdjflkasjdlkfajsdlkfjaslkdjf</h2>
               <PageEmailForm />
             </div>
