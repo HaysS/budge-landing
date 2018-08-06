@@ -115,6 +115,11 @@ class IndexTemplate extends React.Component {
                 <span className="hidden">Scroll Down</span>
               </Link>
             </MainHeader>
+            <div style={{textAlign: 'center'}}>
+              <h2 style={{color: "black", paddingBottom: '20px'}}>alsdjflkasjdlkfajsdlkfjaslkdjf</h2>
+              <PageEmailForm />
+            </div>
+            {/*
             <PaginatedContent
               page={page}
               pages={pages}
@@ -123,9 +128,12 @@ class IndexTemplate extends React.Component {
               prev={prev}
               next={next}
             >
+            */}
               {/* PostListing component renders all the posts */}
+            {/*
               <PostListing postEdges={nodes} postAuthors={authorsEdges} />
             </PaginatedContent>
+            */}
           </div>
 
           {/* The tiny footer at the very bottom */}
