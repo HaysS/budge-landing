@@ -86,15 +86,14 @@ class IndexTemplate extends React.Component {
                   <div className="row">
                     <div className="col left">
                       <PageDescription text={config.siteDescription} />
-                      <ProductVote />
-                      {/*<Link
+                      <Link
                         to="content"
                         data-offset="-45"
                         spy
                         smooth
                         duration={500}>
-                        <FancyButton text="Learn More" />
-                      </Link>*/}
+                        <ProductVote />
+                      </Link>
                     </div>
 
                     <div className="col right">
