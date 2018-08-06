@@ -5,3 +5,34 @@
 .page-template .content {
     overflow: hidden;
 }
+
+#tools {
+    max-width: 80%;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 850px) {
+    #tools {
+	    max-width: 70%;
+	    margin: auto;
+	}
+
+    .small-col {
+        margin: auto;
+    }
+
+    .small-left {
+    	margin-right: 5%;
+    }
+
+    .small-right {
+    	margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .col {
+        padding-bottom: 10%;
+    }
+}

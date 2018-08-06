@@ -7,10 +7,10 @@ import config from "../../data/SiteConfig";
 import Drawer from "../layouts/Drawer/Drawer";
 import Navigation from "../components/Navigation/Navigation";
 import SiteWrapper from "../layouts/SiteWrapper/SiteWrapper";
-import FancyButton from "../components/FancyButton/FancyButton";
 import Footer from "../components/Footer/Footer";
 import MainHeader from "../layouts/MainHeader/MainHeader";
 import MainNav from "../layouts/MainNav/MainNav";
+import MainContent from "../layouts/MainContent/MainContent";
 import BlogLogo from "../components/BlogLogo/BlogLogo";
 import MenuButton from "../components/MenuButton/MenuButton";
 import PageTitle from "../components/PageTitle/PageTitle";
@@ -115,37 +115,30 @@ class IndexTemplate extends React.Component {
                 <span className="hidden">Scroll Down</span>
               </Link>
             </MainHeader>
-            <div id="tools" style={{textAlign: 'center'}}>
-              <h2 style={{color: "black", paddingBottom: '20px'}}>We use React and Node.js to teach you JavaScript!</h2>
-              <PageImage imageUrl={'./images/node-js-logo.png'} />
-              <PageImage imageUrl={'./images/react-logo.png'} />
+            <MainContent>
+              <div id="tools" style={{textAlign: 'center'}}>
+                <h2 style={{color: "black", paddingBottom: '20px'}}>We use React and Node.js to teach you JavaScript!</h2>
+                <div className="row">
+                  <div className="small-col small-left">
+                    <PageImage imageUrl={'./images/node-js-logo.png'} width={'200px'} />
+                  </div>
+                  <div className="small-col small-right">
+                    <PageImage imageUrl={'./images/react-logo.png'} width={'300px'} />
+                  </div>
+                </div>
+              </div>
               <br />
+            </MainContent>
+              <div id="testimonials" style={{textAlign: 'center'}}>
+                <h2 style={{color: "black", paddingBottom: '20px'}}>Here's what people are saying: I love this course!</h2>
+                <br />
+                <br />
+              </div>
+              <div id="content" style={{textAlign: 'center'}}>
+                <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
+                <PageEmailForm />
+              </div>
             </div>
-            <div id="testimonials" style={{textAlign: 'center'}}>
-              <h2 style={{color: "black", paddingBottom: '20px'}}>Here's what people are saying: I love this course!</h2>
-              <br />
-              <br />
-            </div>
-            <div id="content" style={{textAlign: 'center'}}>
-              <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
-              <PageEmailForm />
-            </div>
-            {/*
-            <PaginatedContent
-              page={page}
-              pages={pages}
-              total={total}
-              limit={limit}
-              prev={prev}
-              next={next}
-            >
-            */}
-              {/* PostListing component renders all the posts */}
-            {/*
-              <PostListing postEdges={nodes} postAuthors={authorsEdges} />
-            </PaginatedContent>
-            */}
-          </div>
 
           {/* The tiny footer at the very bottom */}
           <Footer
