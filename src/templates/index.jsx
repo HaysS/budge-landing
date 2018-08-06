@@ -115,7 +115,7 @@ class IndexTemplate extends React.Component {
                 <span className="hidden">Scroll Down</span>
               </Link>
             </MainHeader>
-            <MainContent>
+            <MainContent className="regular-background">
               <div id="tools" style={{textAlign: 'center'}}>
                 <h2 style={{color: "black", paddingBottom: '20px'}}>We use React and Node.js to teach you JavaScript!</h2>
                 <div className="row">
@@ -129,15 +129,19 @@ class IndexTemplate extends React.Component {
               </div>
               <br />
             </MainContent>
+            <MainContent className="regular-background">
               <div id="testimonials" style={{textAlign: 'center'}}>
                 <h2 style={{color: "black", paddingBottom: '20px'}}>Here's what people are saying: I love this course!</h2>
                 <br />
                 <br />
               </div>
+            </MainContent>
+            <MainContent className="regular-background">
               <div id="content" style={{textAlign: 'center'}}>
                 <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
                 <PageEmailForm />
               </div>
+            </MainContent>
             </div>
 
           {/* The tiny footer at the very bottom */}

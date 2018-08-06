@@ -11,6 +11,10 @@
     margin: auto;
 }
 
+.regular-background {
+	background: gray;
+}
+
 
 @media screen and (min-width: 850px) {
     #tools {
