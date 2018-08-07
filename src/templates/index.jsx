@@ -73,7 +73,7 @@ class IndexTemplate extends React.Component {
 
         <SiteWrapper>
           {/* All the main content gets inserted here */}
-          <div className="home-template">
+          <div className="home-template" style={{background: 'linear-gradient(to right bottom, #430089, #82ffa1)'}}>
             {/* The big featured header */}
             <MainHeader cover={config.siteCover}>
               {/*
@@ -115,28 +115,37 @@ class IndexTemplate extends React.Component {
                 <span className="hidden">Scroll Down</span>
               </Link>
             </MainHeader>
-            <MainContent className="regular-background">
-              <div id="tools" style={{textAlign: 'center'}}>
-                <h2 style={{color: "black", paddingBottom: '20px'}}>We use React and Node.js to teach you JavaScript!</h2>
-                <div className="row">
-                  <div className="small-col small-left">
-                    <PageImage imageUrl={'./images/node-js-logo.png'} width={'200px'} />
-                  </div>
-                  <div className="small-col small-right">
-                    <PageImage imageUrl={'./images/react-logo.png'} width={'300px'} />
+            <MainContent>
+              <div id="tools" style={{textAlign: 'center', maxWidth: "100%", background: "#262A30", margin: "auto"}}>
+                <div  style={{
+                  textAlign: 'center', 
+                  background: "rgba(255, 255, 255, 1)", 
+                  width: "70%", 
+                  margin: "auto",
+                  padding: "3.5% 0%",
+                }}>
+                  <h2 style={{color: "black"}}>Build Apps With React and Node.js</h2>
+                  <hr style={{height: '3px', background: "#dddddd", width: "70%", margin: "40px auto"}}/>
+                  <div className="row">
+                    <div className="small-col small-left">
+                      <PageImage imageUrl={'./images/node-js-logo.png'} width={'200px'} />
+                    </div>
+                    <div className="small-col small-right">
+                      <PageImage imageUrl={'./images/react-logo.png'} width={'300px'} />
+                    </div>
                   </div>
                 </div>
               </div>
               <br />
             </MainContent>
-            <MainContent className="regular-background">
+            <MainContent>
               <div id="testimonials" style={{textAlign: 'center'}}>
                 <h2 style={{color: "black", paddingBottom: '20px'}}>Here's what people are saying: I love this course!</h2>
                 <br />
                 <br />
               </div>
             </MainContent>
-            <MainContent className="regular-background">
+            <MainContent>
               <div id="content" style={{textAlign: 'center'}}>
                 <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
                 <PageEmailForm />

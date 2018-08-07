@@ -18,7 +18,7 @@ class MainHeader extends React.Component {
     };
 
     return (
-      <header className={classes} style={{background: 'linear-gradient(to right bottom, #430089, #82ffa1)'}}>
+      <header className={classes} style={{background: 'transparent'}}>
         {children}
       </header>
     );
