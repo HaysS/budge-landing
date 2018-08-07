@@ -1,5 +1,5 @@
 import React from "react";
-import FancyButton from "../FancyButton/FancyButton"
+import FancyButton from "../FancyButton/FancyButton";
 
 import "./ProductVote.css";
 

@@ -207,7 +207,7 @@ const styles = {
     width: "70%", 
     margin: "auto",
     padding: "3.5% 6%",
-    borderRadius: '20',
+    borderRadius: '20px',
   },
   regLine: {
     height: '3px', 

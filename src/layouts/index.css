@@ -513,7 +513,7 @@ margin on the iframe, cause it breaks stuff. */
 .fluid-width-video-wrapper iframe {
     margin: 0;
 }
-
+/*
 textarea,
 select,
 input:not([type="radio"]):not([type="checkbox"]) {
@@ -530,9 +530,9 @@ input:not([type="radio"]):not([type="checkbox"]) {
     border-radius: 4px;
     box-shadow: none;
     -webkit-appearance: none;
-}
+}*/
 
-textarea {
+/*textarea {
     width: 100%;
     max-width: 340px;
     min-width: 250px;
@@ -558,7 +558,7 @@ textarea:focus {
     background: #fff;
     outline: none;
     outline-width: 0;
-}
+}*/
 
 select {
     width: 270px;
