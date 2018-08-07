@@ -137,9 +137,6 @@ class IndexTemplate extends React.Component {
                     </div>
                   </div>
                 </div>
-                <br />
-                <br />
-                <br />
               </div>
               <Link
                 className="scroll-down icon-arrow-left"
