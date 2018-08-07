@@ -122,10 +122,10 @@ class IndexTemplate extends React.Component {
                   <hr style={styles.line}/>
                   <div className="row">
                     <div className="small-col small-left">
-                      <PageImage imageUrl={'./images/node-js-logo.png'} width={'200px'} />
+                      <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
                     </div>
                     <div className="small-col small-right">
-                      <PageImage imageUrl={'./images/react-logo.png'} width={'300px'} />
+                      <PageImage imageUrl={'./images/react-logo.png'} widthPx={300} />
                     </div>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ const styles = {
     background: "rgba(255, 255, 255, 1)", 
     width: "70%", 
     margin: "auto",
-    padding: "3.5% 0%",
+    padding: "3.5% 6%",
   },
   line: {
     height: '3px', 
