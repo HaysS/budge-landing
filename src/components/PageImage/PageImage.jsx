@@ -41,7 +41,13 @@ class PageImage extends Component {
 	          <img src={imageUrl} alt="Example Gif" style={{width: width, height: "auto"}}/>
 	      </div>
 	    );
-	} else if(imageUrl)
+	} else if(imageUrl && rounded)
+	    return (
+	      <div className="page-image">
+	          <img className="circle-image" src={imageUrl} alt="Example Gif" style={{maxWidth: "100%", height: "auto"}}/>
+	      </div>
+	    );
+	else if(imageUrl)
 	    return (
 	      <div className="page-image">
 	          <img src={imageUrl} alt="Example Gif" style={{maxWidth: "100%", height: "auto"}}/>
