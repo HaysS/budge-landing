@@ -23,15 +23,22 @@ class PageImage extends Component {
 
 
   render() {
-    const { imageUrl, widthPx } = this.props;
+    const { imageUrl, widthPx, rounded } = this.props;
 
     console.log(this.state.width, " widthPx: ", widthPx)
 
-	if(imageUrl && widthPx+50 < this.state.width) {
+	if(imageUrl && widthPx+50 < this.state.width && rounded) {
 		const width = widthPx+"px"
 	    return (
 	      <div className="page-image">
 	          <img className="circle-image" src={imageUrl} alt="Example Gif" style={{width: width, height: "auto"}}/>
+	      </div>
+	    );
+	} else if(imageUrl && widthPx+50 < this.state.width) {
+		const width = widthPx+"px"
+	    return (
+	      <div className="page-image">
+	          <img src={imageUrl} alt="Example Gif" style={{width: width, height: "auto"}}/>
 	      </div>
 	    );
 	} else if(imageUrl)

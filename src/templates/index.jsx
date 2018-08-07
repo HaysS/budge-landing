@@ -144,19 +144,19 @@ class IndexTemplate extends React.Component {
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div style={styles.circleImage} className="multi-col">
-                      <PageImage imageUrl={'./images/person-1.jpg'} widthPx={150} />
+                      <PageImage imageUrl={'./images/person-1.jpg'} widthPx={150} rounded={true} />
                     </div>
                     <div className="multi-col">
-                      <PageImage imageUrl={'./images/person-2.jpg'} widthPx={150} />
+                      <PageImage imageUrl={'./images/person-2.jpg'} widthPx={150} rounded={true}/>
                     </div>
                     <div className="multi-col">
-                      <PageImage imageUrl={'./images/person-3.jpg'} widthPx={150} />
+                      <PageImage imageUrl={'./images/person-3.jpg'} widthPx={150} rounded={true}/>
                     </div>
                     <div className="multi-col">
-                      <PageImage imageUrl={'./images/person-5.jpg'} widthPx={150} />
+                      <PageImage imageUrl={'./images/person-5.jpg'} widthPx={150} rounded={true}/>
                     </div>
                     <div className="multi-col">
-                      <PageImage imageUrl={'./images/person-4.jpg'} widthPx={150} />
+                      <PageImage imageUrl={'./images/person-4.jpg'} widthPx={150} rounded={true}/>
                     </div>
                   </div>
                 </div>
@@ -169,7 +169,7 @@ class IndexTemplate extends React.Component {
              <div id="content" style={styles.mainDiv}>
                 <div style={styles.mainCol}>
                   <h2 style={{color: "black", paddingBottom: '20px'}}>Hays Stanford</h2>
-                  <PageImage imageUrl={'./images/instructor.jpg'} widthPx={350} />
+                  <PageImage imageUrl={'./images/instructor.jpg'} widthPx={350} rounded={true}/>
                   <hr style={styles.regLine}/>
                     <div id="signup" style={styles.signup}>
                       <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
