@@ -116,16 +116,10 @@ class IndexTemplate extends React.Component {
               </Link>
             </MainHeader>
             <MainContent>
-              <div id="tools" style={{textAlign: 'center', maxWidth: "100%", background: "#262A30", margin: "auto"}}>
-                <div  style={{
-                  textAlign: 'center', 
-                  background: "rgba(255, 255, 255, 1)", 
-                  width: "70%", 
-                  margin: "auto",
-                  padding: "3.5% 0%",
-                }}>
+              <div id="tools" style={styles.mainDiv}>
+                <div  style={styles.mainCol}>
                   <h2 style={{color: "black"}}>Build Apps With React and Node.js</h2>
-                  <hr style={{height: '3px', background: "#dddddd", width: "70%", margin: "40px auto"}}/>
+                  <hr style={styles.line}/>
                   <div className="row">
                     <div className="small-col small-left">
                       <PageImage imageUrl={'./images/node-js-logo.png'} width={'200px'} />
@@ -162,6 +156,25 @@ class IndexTemplate extends React.Component {
       </Drawer>
     );
   }
+}
+
+const styles = {
+  mainDiv: {
+    textAlign: 'center', maxWidth: "100%", background: "#262A30", margin: "auto"
+  },
+  mainCol: {
+    textAlign: 'center', 
+    background: "rgba(255, 255, 255, 1)", 
+    width: "70%", 
+    margin: "auto",
+    padding: "3.5% 0%",
+  },
+  line: {
+    height: '3px', 
+    background: "#dddddd", 
+    width: "70%", 
+    margin: "40px auto"
+  },
 }
 
 /* eslint no-undef: "off" */
