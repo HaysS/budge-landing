@@ -1,6 +1,6 @@
 .email-form {
 	text-align: center;
-	width: 50%;
+	max-width: 50%;
 	margin: auto;
 }
 
@@ -72,4 +72,12 @@ input[type="button"]:hover {
     -ms-transition: all 0.20s ease-in-out;
     -o-transition: all 0.20s ease-in-out;
     background: rgba(40, 0, 100, 1);
+}
+
+@media screen and (max-width: 767px) {
+    .email-form {
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+    }
 }

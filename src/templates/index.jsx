@@ -24,6 +24,25 @@ import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 const gifUrl = './images/sample-project-2.gif'
 
 class IndexTemplate extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { width: 0, height: 0 };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+
   state = {
     menuOpen: false
   };
@@ -49,6 +68,23 @@ class IndexTemplate extends React.Component {
   closeMenu = () => {
     this.setState({ menuOpen: false });
   };
+
+  showSignup() {
+    if(this.state.width < 768)
+      return(
+        <div id="signup" style={styles.signupSmall}>
+          <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
+          <PageEmailForm />
+        </div>
+      )
+    else
+      return(
+        <div id="signup" style={styles.signup}>
+          <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
+          <PageEmailForm />
+        </div>
+      )
+  }
 
   render() {
     const {
@@ -168,13 +204,18 @@ class IndexTemplate extends React.Component {
             <MainContent>
              <div id="content" style={styles.mainDiv}>
                 <div style={styles.mainCol}>
-                  <h2 style={{color: "black", paddingBottom: '20px'}}>Hays Stanford</h2>
-                  <PageImage imageUrl={'./images/instructor.jpg'} widthPx={350} rounded={true}/>
-                  <hr style={styles.regLine}/>
-                    <div id="signup" style={styles.signup}>
-                      <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
-                      <PageEmailForm />
+                <div className="row">
+                    <div className="small-col small-left">
+                      <h2 style={{color: "black", paddingBottom: '20px'}}>Hays Stanford</h2>
+                      <PageImage imageUrl={'./images/instructor.jpg'} widthPx={350} rounded={true}/>
                     </div>
+                    <div className="small-col small-right">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus enim nibh, efficitur blandit sapien pulvinar non. Vestibulum gravida volutpat lorem, in iaculis risus euismod consequat. Suspendisse lacinia posuere nibh eget mattis. Quisque rhoncus nisl at placerat viverra. Cras condimentum egestas nisl, rutrum venenatis orci suscipit in. Donec volutpat dui non neque commodo ornare. Quisque fermentum vestibulum nibh a sollicitudin. Phasellus consectetur augue id aliquet ornare.
+                    </div>
+                  </div>
+                  
+                  <hr style={styles.regLine}/>
+                    {this.showSignup()}
                 </div>
                 <br />
                 <br />
@@ -217,9 +258,15 @@ const styles = {
   },
   signup: {
     margin: 'auto',
-    width: '60%',
+    maxWidth: '1000px',
     padding: '2.5% 0%',
     background: '#d6d6d6'
+  },
+  signupSmall: {
+    margin: 'auto',
+    maxWidth: '100%',
+    padding: '2.5% 0%',
+    background: '#fff'
   }
 }
 
