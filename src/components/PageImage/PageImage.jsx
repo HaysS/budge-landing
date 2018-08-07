@@ -31,7 +31,7 @@ class PageImage extends Component {
 		const width = widthPx+"px"
 	    return (
 	      <div className="page-image">
-	          <img src={imageUrl} alt="Example Gif" style={{width: width, height: "auto"}}/>
+	          <img className="circle-image" src={imageUrl} alt="Example Gif" style={{width: width, height: "auto"}}/>
 	      </div>
 	    );
 	} else if(imageUrl)

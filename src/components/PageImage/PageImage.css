@@ -9,3 +9,11 @@
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.1s;
 }
+
+
+.circle-image {
+    border-width: 1;
+    border-color: 'rgba(0,0,0,0.2)';
+    background: '#fff';
+    border-radius: 100%;
+  }

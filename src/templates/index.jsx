@@ -117,9 +117,12 @@ class IndexTemplate extends React.Component {
             </MainHeader>
             <MainContent>
               <div id="tools" style={styles.mainDiv}>
+                <br />
+                <br />
+                <br />
                 <div  style={styles.mainCol}>
                   <h2 style={{color: "black"}}>Build Apps With React and Node.js</h2>
-                  <hr style={styles.line}/>
+                  <hr style={styles.regLine}/>
                   <div className="row">
                     <div className="small-col small-left">
                       <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
@@ -129,24 +132,53 @@ class IndexTemplate extends React.Component {
                     </div>
                   </div>
                 </div>
+                <br />
+                <br />
+                <br />
               </div>
             </MainContent>
             <MainContent>
               <div id="testimonials" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black", paddingBottom: '20px'}}>Testimonials</h2>
+                  <h2 style={{color: "black"}}>Testimonials</h2>
+                  <hr style={styles.regLine}/>
+                  <div className="row">
+                    <div style={styles.circleImage} className="multi-col">
+                      <PageImage imageUrl={'./images/person-1.jpg'} widthPx={150} />
+                    </div>
+                    <div className="multi-col">
+                      <PageImage imageUrl={'./images/person-2.jpg'} widthPx={150} />
+                    </div>
+                    <div className="multi-col">
+                      <PageImage imageUrl={'./images/person-3.jpg'} widthPx={150} />
+                    </div>
+                    <div className="multi-col">
+                      <PageImage imageUrl={'./images/person-5.jpg'} widthPx={150} />
+                    </div>
+                    <div className="multi-col">
+                      <PageImage imageUrl={'./images/person-4.jpg'} widthPx={150} />
+                    </div>
+                  </div>
                 </div>
+                <br />
+                <br />
+                <br />
               </div>
             </MainContent>
             <MainContent>
              <div id="content" style={styles.mainDiv}>
-                <div  style={styles.mainCol}>
-                  <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
+                <div style={styles.mainCol}>
+                  <h2 style={{color: "black", paddingBottom: '20px'}}>Hays Stanford</h2>
                   <PageImage imageUrl={'./images/instructor.jpg'} widthPx={350} />
-                    <div id="signup">
-                    <PageEmailForm />
+                  <hr style={styles.regLine}/>
+                    <div id="signup" style={styles.signup}>
+                      <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
+                      <PageEmailForm />
                     </div>
                 </div>
+                <br />
+                <br />
+                <br />
               </div>
             </MainContent>
             </div>
@@ -164,7 +196,10 @@ class IndexTemplate extends React.Component {
 
 const styles = {
   mainDiv: {
-    textAlign: 'center', maxWidth: "100%", background: "#262A30", margin: "auto"
+    textAlign: 'center', 
+    maxWidth: "100%", 
+    background: "#262A30", 
+    margin: "auto"
   },
   mainCol: {
     textAlign: 'center', 
@@ -172,13 +207,17 @@ const styles = {
     width: "70%", 
     margin: "auto",
     padding: "3.5% 6%",
+    borderRadius: '20',
   },
-  line: {
+  regLine: {
     height: '3px', 
     background: "#dddddd", 
     width: "70%", 
     margin: "40px auto"
   },
+  signup: {
+    // background: 'lightgray'
+  }
 }
 
 /* eslint no-undef: "off" */

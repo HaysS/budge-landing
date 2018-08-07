@@ -11,6 +11,11 @@
     margin: auto;
 }
 
+#testimonials .row {
+	max-width: 80%;
+    margin: auto;
+}
+
 .regular-background {
 	background: gray;
 }
@@ -22,8 +27,12 @@
 	    margin: auto;
 	}
 
-    .small-col {
+    .small-col, .multi-col {
         margin: auto;
+    }
+
+    .multi-col {
+    	margin: auto 2.5%;
     }
 
     .small-left {
