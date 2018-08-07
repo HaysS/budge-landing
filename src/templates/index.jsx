@@ -140,7 +140,7 @@ class IndexTemplate extends React.Component {
             <MainContent>
               <div id="testimonials" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>Testimonials</h2>
+                  <h2 style={{color: "black"}}>Work Together or Alone</h2>
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div style={styles.circleImage} className="multi-col">
