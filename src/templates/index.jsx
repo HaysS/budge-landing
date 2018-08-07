@@ -216,7 +216,10 @@ const styles = {
     margin: "40px auto"
   },
   signup: {
-    // background: 'lightgray'
+    margin: 'auto',
+    width: '60%',
+    padding: '2.5% 0%',
+    background: '#d6d6d6'
   }
 }
 

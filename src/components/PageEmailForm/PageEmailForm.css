@@ -47,8 +47,6 @@ select:focus {
     box-shadow: 0 0 5px black;
     border: 1px solid black;
     background: #fff;
-    width: 98%;
-    height: 95%;
 }
 
 input[type="submit"],
@@ -73,7 +71,5 @@ input[type="button"]:hover {
     -moz-transition: all 0.20s ease-in-out;
     -ms-transition: all 0.20s ease-in-out;
     -o-transition: all 0.20s ease-in-out;
-    background: rgba(130, 3, 136, 1);
-    width: 98%;
-    height: 95%;
+    background: rgba(40, 0, 100, 1);
 }
