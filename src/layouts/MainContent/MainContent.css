@@ -7,7 +7,7 @@
 }
 
 #tools, #content .row {
-    max-width: 80%;
+    max-width: 75%;
     margin: auto;
     text-align: center;
 }
@@ -42,7 +42,6 @@
 
     .small-right {
     	margin-left: 5%;
-        padding-top: 6%;
     }
 }
 

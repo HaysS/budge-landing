@@ -206,11 +206,13 @@ class IndexTemplate extends React.Component {
                 <div style={styles.mainCol}>
                 <div className="row">
                     <div className="small-col small-left">
-                      <h2 style={{color: "black", paddingBottom: '20px'}}>Hays Stanford</h2>
                       <PageImage imageUrl={'./images/instructor.jpg'} widthPx={350} rounded={true}/>
                     </div>
                     <div className="small-col small-right">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus enim nibh, efficitur blandit sapien pulvinar non. Vestibulum gravida volutpat lorem, in iaculis risus euismod consequat. Suspendisse lacinia posuere nibh eget mattis. Quisque rhoncus nisl at placerat viverra. Cras condimentum egestas nisl, rutrum venenatis orci suscipit in. Donec volutpat dui non neque commodo ornare. Quisque fermentum vestibulum nibh a sollicitudin. Phasellus consectetur augue id aliquet ornare.
+                      <h2 style={{color: "black", paddingBottom: '20px'}}>Hays Stanford</h2>
+                      My name is Hays Stanford and I'll be your instructor. You will be provided with step-by-step details on how to build the projects you and your fellow students choose. 
+                      <br /><br />
+                      I will show you how to break a product idea into small, managable bits. We will then execute each of the steps until the idea has been brought to life.
                     </div>
                   </div>
                   

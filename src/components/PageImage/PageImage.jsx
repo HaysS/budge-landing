@@ -25,7 +25,7 @@ class PageImage extends Component {
   render() {
     const { imageUrl, widthPx, rounded } = this.props;
 
-    console.log(this.state.width, " widthPx: ", widthPx)
+    // console.log(this.state.width, " widthPx: ", widthPx)
 
 	if(imageUrl && widthPx+50 < this.state.width && rounded) {
 		const width = widthPx+"px"
