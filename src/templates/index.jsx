@@ -87,7 +87,7 @@ class IndexTemplate extends React.Component {
                     <div className="col left">
                       <PageDescription text={config.siteDescription} />
                       <Link
-                        to="content"
+                        to="signup"
                         data-offset="-45"
                         spy
                         smooth
@@ -130,20 +130,22 @@ class IndexTemplate extends React.Component {
                   </div>
                 </div>
               </div>
-              <br />
             </MainContent>
             <MainContent>
-              <div id="testimonials" style={{textAlign: 'center'}}>
-                <h2 style={{color: "black", paddingBottom: '20px'}}>Here's what people are saying: I love this course!</h2>
-                <br />
-                <br />
+              <div id="testimonials" style={styles.mainDiv}>
+                <div  style={styles.mainCol}>
+                  <h2 style={{color: "black", paddingBottom: '20px'}}>Testimonials</h2>
+                </div>
               </div>
             </MainContent>
             <MainContent>
              <div id="content" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
                   <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
-                  <PageEmailForm />
+                  <PageImage imageUrl={'./images/instructor.jpg'} widthPx={350} />
+                    <div id="signup">
+                    <PageEmailForm />
+                    </div>
                 </div>
               </div>
             </MainContent>

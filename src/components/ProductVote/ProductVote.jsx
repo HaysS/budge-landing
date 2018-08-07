@@ -30,7 +30,7 @@ class ProductVote extends React.Component {
           <input type="hidden" name="form-name" value="landing-page-emails" />
           <input type="hidden" name="bot-field" />
           <label><input required type="radio" name="vote" value="0" /></label><FancyButton text="Rebuild Facebook" /><br />
-          <label><input required type="radio" name="vote" value="1" /></label><FancyButton text="Create Money Managing App" /><br />
+          <label><input required type="radio" name="vote" value="1" /></label><FancyButton text="Create a Money Managing App" /><br />
           <label><input required type="radio" name="vote" value="2" /></label><FancyButton text="Build a Reddit Bot" /><br />
           <input type="submit" value="submit" />
         </form>
