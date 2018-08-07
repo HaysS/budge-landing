@@ -140,9 +140,11 @@ class IndexTemplate extends React.Component {
               </div>
             </MainContent>
             <MainContent>
-              <div id="content" style={{textAlign: 'center'}}>
-                <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
-                <PageEmailForm />
+             <div id="content" style={styles.mainDiv}>
+                <div  style={styles.mainCol}>
+                  <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
+                  <PageEmailForm />
+                </div>
               </div>
             </MainContent>
             </div>
