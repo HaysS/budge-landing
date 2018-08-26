@@ -21,8 +21,11 @@ import ProductVote from "../components/ProductVote/ProductVote";
 import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
-const header1 = "Build the Life You Want."
-const header2 = "Give People What They Want."
+const descriptionHeader1 = "Get What You Want."
+const descriptionHeader2 = "Give People What They Want."
+
+const portfolioHeader1 = "What We've Built"
+const portfolioHeader2 = ""
 
 const gifUrl = './images/sample-project-2.gif'
 
@@ -152,13 +155,36 @@ class IndexTemplate extends React.Component {
               </Link>
             </MainHeader>
             <MainContent>
-              <div id="tools" style={styles.mainDiv}>
+              <div id="description" style={styles.mainDiv}>
                 <br />
                 <br />
                 <br />
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>{header1}</h2>
-                  <h2 style={{color: "black"}}>{header2}</h2>
+                  <h2 style={{color: "black"}}>{descriptionHeader1}</h2>
+                  <h2 style={{color: "black"}}>{descriptionHeader2}</h2>
+                  <hr style={styles.regLine}/>
+                  <div className="row">
+                    <div className="small-col small-left">
+                      <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
+                    </div>
+                    <div className="small-col small-right">
+                      <PageImage imageUrl={'./images/react-logo.png'} widthPx={300} />
+                    </div>
+                  </div>
+                </div>
+                <br />
+                <br />
+                <br />
+              </div>
+            </MainContent>
+            <MainContent>
+              <div id="portfolio" style={styles.mainDiv}>
+                <br />
+                <br />
+                <br />
+                <div  style={styles.mainCol}>
+                  <h2 style={{color: "black"}}>{portfolioHeader1}</h2>
+                  <h2 style={{color: "black"}}>{portfolioHeader2}</h2>
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div className="small-col small-left">
