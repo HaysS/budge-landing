@@ -25,14 +25,13 @@ class ProductVote extends React.Component {
     return(
       <div className="product-vote">
         <h1 className="title">What do you want to do first?</h1>
-        <form name="product-vote" action="#" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form name="product-vote" action={() => {}} method="post" data-netlify="true" data-netlify-honeypot="bot-field">
       		{/*Hiddin inputs necessary for use with Netlify hosting to use free form function*/}
           <input type="hidden" name="form-name" value="product-vote" />
           <input type="hidden" name="bot-field" />
-          <label><input required type="radio" name="facebook" value="0" /></label><FancyButton text="Rebuild Facebook" /><br />
-          <label><input required type="radio" name="money-app" value="1" /></label><FancyButton text="Create a Money Managing App" /><br />
-          <label><input required type="radio" name="reddit-bot" value="2" /></label><FancyButton text="Build a Reddit Bot" /><br />
-          <input type="submit" value="submit" />
+          <label><input required type="submit" name="facebook" value="0" /></label><FancyButton text="Rebuild Facebook" /><br />
+          <label><input required type="submit" name="money-app" value="1" /></label><FancyButton text="Create a Money Managing App" /><br />
+          <label><input required type="submit" name="reddit-bot" value="2" /></label><FancyButton text="Build a Reddit Bot" /><br />
         </form>
       </div>
     )
