@@ -47,7 +47,7 @@ module.exports = {
   copyright: {
     label: "Hays Stanford", // Label used before the year
     year: "2018", // optional, set specific copyright year or range of years, defaults to current year
-    url: "http://www.haysstanford.com/" // optional, set link address of copyright, defaults to site root
+    url: "" // optional, set link address of copyright, defaults to site root
   },
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0", // Used for setting manifest background color.
