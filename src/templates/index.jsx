@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { Link } from "react-scroll";
+import YouTube from 'react-youtube';
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -28,6 +29,30 @@ const portfolioHeader1 = "What We've Built"
 const portfolioHeader2 = ""
 
 const gifUrl = './images/sample-project-2.gif'
+const youtubeEmbed = () => {
+    const vidAspectRatio = 16/9
+    const height = 500
+    const width = height / vidAspectRatio
+
+    const opts = {
+        height: height,
+        width: width,
+        playerVars: { // https://developers.google.com/youtube/player_parameters
+          autoplay: 1
+        }
+      };
+
+    return(
+      <div>
+        <YouTube
+          videoId="xjnxMlR_nFo"
+          opts={opts}
+          onReady={() => {}}
+        />
+        {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/xjnxMlR_nFo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>*/}
+      </div>
+    )
+  }
 
 class IndexTemplate extends React.Component {
   constructor(props) {
@@ -139,7 +164,8 @@ class IndexTemplate extends React.Component {
                     </div>
 
                     <div className="col right">
-                      <PageImage imageUrl={gifUrl} />
+                      {youtubeEmbed()}
+                      {/*<PageImage imageUrl={gifUrl} />*/}
                     </div>
                   </div>
                 </div>
@@ -179,9 +205,6 @@ class IndexTemplate extends React.Component {
             </MainContent>
             <MainContent>
               <div id="portfolio" style={styles.mainDiv}>
-                <br />
-                <br />
-                <br />
                 <div  style={styles.mainCol}>
                   <h2 style={{color: "black"}}>{portfolioHeader1}</h2>
                   <h2 style={{color: "black"}}>{portfolioHeader2}</h2>
