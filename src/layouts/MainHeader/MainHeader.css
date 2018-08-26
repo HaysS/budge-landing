@@ -15,6 +15,34 @@
     max-width: 80%;
 }
 
+/* the height to width aspect ratio for the iphone6 image is 1634:797 */
+.stacked-img {
+    height: 600px;
+    width: 293px;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 293px;
+    padding-bottom: 5%;
+}
+
+.image1 {
+  position: relative;
+  top: 65px;
+  left: 17px;
+  z-index: 1;
+}
+.image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
 @media screen and (min-width: 850px) {
     .row {
         display: -webkit-flex;

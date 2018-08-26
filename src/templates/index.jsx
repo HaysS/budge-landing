@@ -29,10 +29,12 @@ const portfolioHeader1 = "What We've Built"
 const portfolioHeader2 = ""
 
 const gifUrl = './images/sample-project-2.gif'
+const iphone6Img = './images/iphone6.png'
+
 const youtubeEmbed = () => {
-    const vidAspectRatio = 16/9
-    const height = 500
-    const width = height / vidAspectRatio
+    const aspectRatio = 16/9
+    const height = 465
+    const width = height / aspectRatio
 
     const opts = {
         height: height,
@@ -43,14 +45,11 @@ const youtubeEmbed = () => {
       };
 
     return(
-      <div>
         <YouTube
           videoId="xjnxMlR_nFo"
           opts={opts}
           onReady={() => {}}
         />
-        {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/xjnxMlR_nFo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>*/}
-      </div>
     )
   }
 
@@ -164,8 +163,14 @@ class IndexTemplate extends React.Component {
                     </div>
 
                     <div className="col right">
-                      {youtubeEmbed()}
-                      {/*<PageImage imageUrl={gifUrl} />*/}
+                      <div className="parent stacked-img">
+                        <div className="image1 stacked-img">
+                          {youtubeEmbed()}
+                        </div>
+                        <div className="image2 stacked-img">
+                          <img src={iphone6Img} className="stacked-img" />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
