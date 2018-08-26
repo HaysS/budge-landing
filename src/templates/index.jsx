@@ -21,6 +21,9 @@ import ProductVote from "../components/ProductVote/ProductVote";
 import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
+const header1 = "Build the Life You Want."
+const header2 = "Give People What They Want."
+
 const gifUrl = './images/sample-project-2.gif'
 
 class IndexTemplate extends React.Component {
@@ -154,7 +157,8 @@ class IndexTemplate extends React.Component {
                 <br />
                 <br />
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>Build Apps With React and Node.js</h2>
+                  <h2 style={{color: "black"}}>{header1}</h2>
+                  <h2 style={{color: "black"}}>{header2}</h2>
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div className="small-col small-left">

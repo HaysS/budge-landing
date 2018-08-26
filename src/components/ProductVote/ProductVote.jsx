@@ -35,7 +35,7 @@ class ProductVote extends React.Component {
           <input type="hidden" name="bot-field" />
           <label><input required type="radio" name="facebook" value="0" /></label><FancyButton text="How to Start a New Product" /><br />
           <label><input required type="radio" name="money-app" value="1" /></label><FancyButton text="How to Get More Users" /><br />
-          <label><input required type="radio" name="reddit-bot" value="2" /></label><FancyButton text="How to Reduce Your Burn-Rate" /><br />
+          <label><input required type="radio" name="reddit-bot" value="2" /></label><FancyButton text="How to Survive Without a Job" /><br />
         </form>
       </div>
     )
