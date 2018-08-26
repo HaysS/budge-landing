@@ -3,13 +3,13 @@ module.exports = {
   blogAuthorDir: "sample-authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "casper", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "ProductLife", // Site title.
-  siteTitleAlt: "ProductLife | Make Money Building Things.", // Alternative site title for SEO.
+  siteTitleAlt: "ProductLife | Build Things People Use", // Alternative site title for SEO.
   siteLogo:
     "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://productlife.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "Learn to Make Money Building Things.", // Website description used for RSS feeds/meta description tag.
+    "Learn How to Build Things People Want.", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "#", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
