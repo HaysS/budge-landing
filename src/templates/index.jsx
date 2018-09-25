@@ -22,11 +22,17 @@ import ProductVote from "../components/ProductVote/ProductVote";
 import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
-const descriptionHeader1 = 'Save money on your food.'
-const descriptionHeader2 = ''
+const step1Header1 = 'Track Your Spending As You Go'
+const step1Header2 = ''
+const step1Text = ''
 
-const portfolioHeader1 = "What We've Built"
-const portfolioHeader2 = ""
+const step2Header1 = 'What We\'ve Built'
+const step2Header2 = ''
+const step2Text = ''
+
+const step3Header1 = ''
+const step3Header2 = ''
+const step3Text = ''
 
 const gifUrl = './images/sample-project-2.gif'
 const iphone6Img = './images/iphone6.png'
@@ -154,7 +160,7 @@ class IndexTemplate extends React.Component {
                     <div className="col left">
                       <PageDescription text={config.siteDescription} />
                       <Link
-                        to="signup"
+                        to="content"
                         data-offset="-45"
                         spy
                         smooth
@@ -178,7 +184,7 @@ class IndexTemplate extends React.Component {
               </div>
               <Link
                 className="scroll-down icon-arrow-left"
-                to="content"
+                to="signup"
                 data-offset="-45"
                 spy
                 smooth
@@ -192,16 +198,19 @@ class IndexTemplate extends React.Component {
                 <br />
                 <br />
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>{descriptionHeader1}</h2>
-                  <h2 style={{color: "black"}}>{descriptionHeader2}</h2>
+                  <h2 style={{color: "black"}}>{step1Header1}</h2>
+                  <h2 style={{color: "black"}}>{step1Header2}</h2>
                   <hr style={styles.regLine}/>
                   <div className="row">
-                    <div className="small-col small-left">
+                    <div>
+                      <p style={{}}>{step1Text}</p>
+                    </div>
+                    {/*<div className="small-col small-left">
                       <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
                     </div>
                     <div className="small-col small-right">
                       <PageImage imageUrl={'./images/react-logo.png'} widthPx={300} />
-                    </div>
+                    </div>*/}
                   </div>
                 </div>
                 <br />
@@ -212,8 +221,8 @@ class IndexTemplate extends React.Component {
             <MainContent>
               <div id="portfolio" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>{portfolioHeader1}</h2>
-                  <h2 style={{color: "black"}}>{portfolioHeader2}</h2>
+                  <h2 style={{color: "black"}}>{step2Header1}</h2>
+                  <h2 style={{color: "black"}}>{step2Header2}</h2>
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div className="small-col small-left">
