@@ -100,17 +100,18 @@ class IndexTemplate extends React.Component {
   };
 
   showSignup() {
+    const text = 'Download Now.'
     if(this.state.width < 768)
       return(
         <div id="signup" style={styles.signupSmall}>
-          <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
+          <h2 style={{color: "black", paddingBottom: '20px'}}>{text}</h2>
           <PageEmailForm />
         </div>
       )
     else
       return(
         <div id="signup" style={styles.signup}>
-          <h2 style={{color: "black", paddingBottom: '20px'}}>Sign Up Now!</h2>
+          <h2 style={{color: "black", paddingBottom: '20px'}}>{text}</h2>
           <PageEmailForm />
         </div>
       )
