@@ -22,8 +22,8 @@ import ProductVote from "../components/ProductVote/ProductVote";
 import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
-const descriptionHeader1 = "Get What You Want."
-const descriptionHeader2 = "Give People What They Want."
+const descriptionHeader1 = 'Save money on your food.'
+const descriptionHeader2 = ''
 
 const portfolioHeader1 = "What We've Built"
 const portfolioHeader2 = ""
