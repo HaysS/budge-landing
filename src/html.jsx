@@ -58,12 +58,10 @@ export default class HTML extends React.Component {
           />
 
           {this.props.headComponents}
-          {/*
           <link rel="apple-touch-icon" sizes="180x180" href={faviconApple} />
           <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
           <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
           <link rel="mask-icon" href={safariPinned} color="#a89472" />
-          */}
           <link rel="shortcut icon" href={faviconICO} />
           <meta name="theme-color" content="#ffffff" />
           {css}
