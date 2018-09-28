@@ -172,7 +172,7 @@ class IndexTemplate extends React.Component {
                       </Link>
                     </div>
 
-                    <div className="col right">
+                    <div style={{paddingTop: '1.25em'}} className="col right">
                       <div className="parent stacked-img">
                         <div className="image1 stacked-img">
                           {youtubeEmbed()}
