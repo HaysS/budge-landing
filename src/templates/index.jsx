@@ -34,6 +34,7 @@ const step3Header1 = ''
 const step3Header2 = ''
 const step3Text = ''
 
+const titleLogoUrl = './logos/text-logo.png'
 const gifUrl = './images/sample-project-2.gif'
 const iphone6Img = './images/iphone6.png'
 
@@ -146,7 +147,7 @@ class IndexTemplate extends React.Component {
 
         <SiteWrapper>
           {/* All the main content gets inserted here */}
-          <div className="home-template" style={{background: 'linear-gradient(to right bottom, #430089, #82ffa1)'}}>
+          <div className="home-template" style={{background: 'linear-gradient(to right bottom, #fff, #3A44AA)'}}>
             {/* The big featured header */}
             <MainHeader cover={config.siteCover}>
               {/*
@@ -154,10 +155,10 @@ class IndexTemplate extends React.Component {
               </MainNav>
               */}
               <div className="vertical">
-                <PageTitle text={config.siteTitle} />
                 <div className="main-header-content inner">
                   <div className="row">
                     <div className="col left">
+                      <PageImage imageUrl={titleLogoUrl} widthPx={200} />
                       <PageDescription text={config.siteDescription} />
                       <Link
                         to="content"
