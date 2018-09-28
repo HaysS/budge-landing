@@ -5,8 +5,8 @@ module.exports = {
   siteTitle: "GetRich", // Site title.
   siteTitleAlt: "GetRich | Make Money by Saving.", // Alternative site title for SEO.
   siteLogo:
-    "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
-  siteUrl: "https://cashpie.netlify.com", // Domain of your website without pathPrefix.
+    "/logos/logo.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+  siteUrl: "https://getrich.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
     "Minimize Your Spending. Forget Tedious Data Entry.", // Website description used for RSS feeds/meta description tag.
