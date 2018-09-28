@@ -16,7 +16,7 @@
     white-space: nowrap;
     border-radius: 3px;
     transition: all 0.5s ease;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(49, 188, 121, 0.8);
     text-decoration: none;
     margin-bottom: 0px;
     overflow: auto;
@@ -24,7 +24,7 @@
 }
 
 .fancy-button::before {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(49, 188, 121, 1);
     font-weight: bold;
     position: relative;
     top: 1px;
@@ -35,7 +35,7 @@
     margin-bottom: 0px;
     padding: 1em 1em;
     font-size: 21px;
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(49, 188, 121, 1);
 }
 
 .fancy-button:focus {
@@ -49,18 +49,18 @@
 }
 
 .nav-closed .fancy-button:hover {
-    color: rgba(233, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 /* When the navigation is closed and there is no cover image */
 .nav-closed .no-cover .fancy-button {
     border-color: #bfc8cd;
-    color: #9eabb3;
+    color: rgba(58, 68, 170, 0.8);
 }
 
 .nav-closed .no-cover .fancy-button:hover {
     border-color: #555;
-    color: #555;
+    color: rgba(58, 68, 170, 0.8);
 }
 
 /* When the navigation is opened */
@@ -68,7 +68,7 @@
     padding: 0 12px;
     background: #111;
     border-color: #111;
-    color: #fff;
+    color: rgba(58, 68, 170, 0.8);
     -webkit-transform: translate3d(94px, 0, 0);
     -ms-transform: translate3d(94px, 0, 0);
     transform: translate3d(94px, 0, 0);
