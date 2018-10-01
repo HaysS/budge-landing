@@ -34,10 +34,16 @@ const step3Header1 = ''
 const step3Header2 = ''
 const step3Text = ''
 
+const step4Header1 = ''
+const step4Header2 = ''
+const step4Text = ''
+
 const callToAction = 'Get Early Access.'
 
 const titleLogoUrl = './logos/text-logo.png'
-const iphoneImgUrl = './images/num-pad-screen.png'
+const numPadScreenUrl = './images/num-pad-screen.png'
+const allAcountsScreenUrl = './images/all-accounts-screen.png'
+const addTransactionScreenUrl = './images/add-transaction-screen.png'
 const iphone6Img = './images/iphone6.png'
 
 const youtubeEmbed = () => {
@@ -177,7 +183,7 @@ class IndexTemplate extends React.Component {
                       <div className="parent stacked-img">
                         <div className="gifImage stacked-img">
                           {/*youtubeEmbed()*/}
-                          <img src={iphoneImgUrl} className="top-stacked-img" />
+                          <img src={numPadScreenUrl} className="top-stacked-img" />
                         </div>
                         <div className="image2 stacked-img">
                           <img src={iphone6Img} className="stacked-img" />
@@ -207,15 +213,34 @@ class IndexTemplate extends React.Component {
                   <h2 style={{color: "black"}}>{step1Header2}</h2>
                   <hr style={styles.regLine}/>
                   <div className="row">
-                    <div>
-                      <p style={{}}>{step1Text}</p>
+                    <div className="small-col small-left">
+                      <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
                     </div>
-                    {/*<div className="small-col small-left">
+                    <div className="small-col small-right">
+                      <div>
+                        <p style={{}}>{step1Text}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br />
+                <br />
+                <br />
+              </div>
+            </MainContent>
+            <MainContent>
+              <div id="portfolio" style={styles.mainDiv}>
+                <div  style={styles.mainCol}>
+                  <h2 style={{color: "black"}}>{step2Header1}</h2>
+                  <h2 style={{color: "black"}}>{step2Header2}</h2>
+                  <hr style={styles.regLine}/>
+                  <div className="row">
+                    <div className="small-col small-left">
                       <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
                     </div>
                     <div className="small-col small-right">
                       <PageImage imageUrl={'./images/react-logo.png'} widthPx={300} />
-                    </div>*/}
+                    </div>
                   </div>
                 </div>
                 <br />
