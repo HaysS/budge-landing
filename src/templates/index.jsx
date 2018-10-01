@@ -363,10 +363,9 @@ const styles = {
     textAlign: 'center', 
     maxWidth: "100%", 
     background: "#262A30", 
-    margin: "auto"
+    margin: "auto",
   },
   stepHeader: {
-    paddingTop: '5%',
     color: "black",
   },
   mainCol: {

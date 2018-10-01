@@ -62,7 +62,7 @@
         display: -ms-flexbox;
         display: flex;
         max-width: 100%;
-        padding-bottom: 5%;
+        padding-bottom: 2%;
     }
 
     .col {
