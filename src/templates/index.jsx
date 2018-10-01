@@ -210,7 +210,7 @@ class IndexTemplate extends React.Component {
                 <br />
                 <br />
                 <div  style={styles.mainCol}>
-                  <h2 style={styles.stepHeader}>{step1Header1}</h2>
+                  <h2 className="step-header" style={styles.stepHeader}>{step1Header1}</h2>
                   {/*
                   <h2 style={styles.stepHeader}>{step1Header2}</h2>
                   */}
@@ -240,7 +240,7 @@ class IndexTemplate extends React.Component {
             <MainContent>
               <div id="screens" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={styles.stepHeader}>{step2Header1}</h2>
+                  <h2 className="step-header" style={styles.stepHeader}>{step2Header1}</h2>
                   {/*
                   <h2 style={styles.stepHeader}>{step2Header2}</h2>
                   */}
@@ -270,7 +270,7 @@ class IndexTemplate extends React.Component {
             <MainContent>
               <div id="portfolio" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={styles.stepHeader}>{step3Header1}</h2>
+                  <h2 className="step-header" style={styles.stepHeader}>{step3Header1}</h2>
                   {/*
                   <h2 style={styles.stepHeader}>{step3Header2}</h2>
                   */}
@@ -286,7 +286,7 @@ class IndexTemplate extends React.Component {
             <MainContent>
               <div id="testimonials" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={styles.stepHeader}>{step4Header1}</h2>
+                  <h2 className="step-header" style={styles.stepHeader}>{step4Header1}</h2>
                   {/*
                   <h2 style={styles.stepHeader}>{step4Header2}</h2>
                   */}
