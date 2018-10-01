@@ -46,6 +46,12 @@
 }
 
 @media screen and (max-width: 850px) {
+    #tools, #content .row {
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
     .col {
         padding-bottom: 10%;
     }
