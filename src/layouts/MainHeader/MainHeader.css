@@ -259,6 +259,7 @@
         min-height: 240px;
         height: 60vh;
         padding: 15% 0;
+        padding-bottom: 0;
     }
 
     .home-template .main-header::after { display: none; }
