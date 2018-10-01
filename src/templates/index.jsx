@@ -35,11 +35,11 @@ const step3Header2 = ''
 const step3Text = ''
 const step3ImgUrl = './images/professional-cash-rain.gif'
 
-const step4Header1 = 'Join Our Online Community!'
+const step4Header1 = 'Become an Exclusive Member.'
 const step4Header2 = ''
 const step4Text = './images/professional-cash-rain.gif'
 
-const callToAction = 'Get Early Access.'
+const callToAction = 'Get Early Access'
 
 const titleLogoUrl = './logos/text-logo.png'
 const numPadScreenUrl = './images/num-pad-screen.png'
@@ -282,7 +282,9 @@ class IndexTemplate extends React.Component {
                 <div  style={styles.mainCol}>
                   <h2 style={{color: "black"}}>{step4Header1}</h2>
                   <h2 style={{color: "black"}}>{step4Header2}</h2>
-                  <hr style={styles.regLine}/>
+
+                  <br />
+
                   <div className="row">
                     <div style={styles.circleImage} className="multi-col">
                       <PageImage imageUrl={'./images/person-1.jpg'} widthPx={150} rounded={true} />
@@ -300,12 +302,17 @@ class IndexTemplate extends React.Component {
                       <PageImage imageUrl={'./images/person-4.jpg'} widthPx={150} rounded={true}/>
                     </div>
                   </div>
+                  <br />
+                  <br />
+
+                    {this.showSignup()}
                 </div>
                 <br />
                 <br />
                 <br />
               </div>
             </MainContent>
+            {/*
             <MainContent>
              <div id="content" style={styles.mainDiv}>
                 <div style={styles.mainCol}>
@@ -329,7 +336,8 @@ class IndexTemplate extends React.Component {
                 <br />
               </div>
             </MainContent>
-            </div>
+          */}
+          </div>
 
           {/* The tiny footer at the very bottom */}
           <Footer
