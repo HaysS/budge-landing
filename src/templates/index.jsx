@@ -233,9 +233,6 @@ class IndexTemplate extends React.Component {
               <div id="description" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
                   <h2 className="step-header" style={styles.stepHeader}>{step1Header1}</h2>
-                  {/*
-                  <h2 style={styles.stepHeader}>{step1Header2}</h2>
-                  */}
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div className="small-col small-left">
@@ -250,6 +247,7 @@ class IndexTemplate extends React.Component {
                       </div>
                     </div>
                     <div className="small-col small-right text">
+                        <h3>{step1Header2}</h3>
                         <p style={{}}>{step1Text}</p>
                         {bulletList(step1BulletPoints)}
                     </div>
@@ -269,10 +267,7 @@ class IndexTemplate extends React.Component {
                   */}
                   <hr style={styles.regLine}/>
                   <div className="row">
-                    <div className="small-col small-left text">
-                      <p style={{}}>{step1Text}</p>
-                    </div>
-                    <div className="small-col small-right">
+                    <div className="small-col small-left">
                       <div className="parent stacked-img">
                         <div className="gifImage stacked-img">
                           {/*youtubeEmbed()*/}
@@ -282,6 +277,10 @@ class IndexTemplate extends React.Component {
                           <img src={iphone6Img} className="stacked-img" />
                         </div>
                       </div>
+                    </div>
+                    <div className="small-col small-right text">
+                      <h3>{step2Header2}</h3>
+                      <p style={{}}>{step1Text}</p>
                     </div>
                   </div>
                 </div>
