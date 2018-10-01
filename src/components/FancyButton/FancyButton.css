@@ -87,22 +87,17 @@
 @media only screen and (max-width: 500px) {
     .fancy-button {
         margin-top: 1em;
-        margin-bottom: 9px;
-        padding: 1em 1em;
+        padding: .5em .5em;
         font-size: 18px;
         border-radius: 10px;
         border-width: 1;
-        background-color: rgba(0, 0, 0, 0.1);
-        color: #222;
     }
 
     .fancy-button:hover {
         margin-top: 1em;
+        padding: .5em .5em;
         margin-bottom: 0px;
-        padding: 1em 1em;
-        font-size: 21px;
-        border-radius: 10px;
-        background-color: rgba(0, 0, 0, 0.45);
+        font-size: 19px;
     }
 }
 

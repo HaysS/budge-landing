@@ -11,6 +11,14 @@
     overflow: hidden;
 }
 
+.center {
+  margin: auto;
+}
+
+.multi-col {
+  flex: 1;
+}
+
 .main-header .inner {
     max-width: 80%;
 }

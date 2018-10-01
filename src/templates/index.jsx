@@ -293,26 +293,21 @@ class IndexTemplate extends React.Component {
 
                   <br />
 
-                  <div className="row">
+                  <div className="row" style={{width: '560'}}>
                     <div style={styles.circleImage} className="multi-col">
-                      <PageImage imageUrl={'./images/person-1.jpg'} widthPx={150} rounded={true} />
+                      <PageImage imageUrl={'./images/person-1.jpg'} widthPx={110} rounded={true} />
                     </div>
                     <div className="multi-col">
-                      <PageImage imageUrl={'./images/person-2.jpg'} widthPx={150} rounded={true}/>
+                      <PageImage imageUrl={'./images/person-2.jpg'} widthPx={110} rounded={true}/>
                     </div>
                     <div className="multi-col">
-                      <PageImage imageUrl={'./images/person-3.jpg'} widthPx={150} rounded={true}/>
+                      <PageImage imageUrl={'./images/person-3.jpg'} widthPx={110} rounded={true}/>
                     </div>
                     <div className="multi-col">
-                      <PageImage imageUrl={'./images/person-5.jpg'} widthPx={150} rounded={true}/>
-                    </div>
-                    <div className="multi-col">
-                      <PageImage imageUrl={'./images/person-4.jpg'} widthPx={150} rounded={true}/>
+                      <PageImage imageUrl={'./images/person-4.jpg'} widthPx={110} rounded={true}/>
                     </div>
                   </div>
                   <br />
-                  <br />
-
                     {this.showSignup()}
                 </div>
                 <br />
