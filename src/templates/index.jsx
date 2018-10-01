@@ -210,8 +210,10 @@ class IndexTemplate extends React.Component {
                 <br />
                 <br />
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>{step1Header1}</h2>
-                  <h2 style={{color: "black"}}>{step1Header2}</h2>
+                  <h2 style={styles.stepHeader}>{step1Header1}</h2>
+                  {/*
+                  <h2 style={styles.stepHeader}>{step1Header2}</h2>
+                  */}
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div className="small-col small-left">
@@ -238,8 +240,10 @@ class IndexTemplate extends React.Component {
             <MainContent>
               <div id="screens" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>{step2Header1}</h2>
-                  <h2 style={{color: "black"}}>{step2Header2}</h2>
+                  <h2 style={styles.stepHeader}>{step2Header1}</h2>
+                  {/*
+                  <h2 style={styles.stepHeader}>{step2Header2}</h2>
+                  */}
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div className="small-col small-left">
@@ -266,8 +270,10 @@ class IndexTemplate extends React.Component {
             <MainContent>
               <div id="portfolio" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>{step3Header1}</h2>
-                  <h2 style={{color: "black"}}>{step3Header2}</h2>
+                  <h2 style={styles.stepHeader}>{step3Header1}</h2>
+                  {/*
+                  <h2 style={styles.stepHeader}>{step3Header2}</h2>
+                  */}
                   <hr style={styles.regLine}/>
                   <PageImage imageUrl={step3ImgUrl} widthPx={750} />
                   <p style={{}}>{step3Text}</p>
@@ -280,8 +286,10 @@ class IndexTemplate extends React.Component {
             <MainContent>
               <div id="testimonials" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>{step4Header1}</h2>
-                  <h2 style={{color: "black"}}>{step4Header2}</h2>
+                  <h2 style={styles.stepHeader}>{step4Header1}</h2>
+                  {/*
+                  <h2 style={styles.stepHeader}>{step4Header2}</h2>
+                  */}
 
                   <br />
 
@@ -356,6 +364,10 @@ const styles = {
     maxWidth: "100%", 
     background: "#262A30", 
     margin: "auto"
+  },
+  stepHeader: {
+    paddingTop: '5%',
+    color: "black",
   },
   mainCol: {
     textAlign: 'center', 
