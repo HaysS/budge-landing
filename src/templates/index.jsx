@@ -24,7 +24,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
 const step1Header1 = 'Track Your Spending As You Go'
 const step1Header2 = ''
-const step1Text = 'So here we go, you can tarck aoijfdowjofjwoiejfoawjlkd alksdjflkajef aodkf aowkenf aoskdjf aokwejfoa ksdjfoaksdj fokasdjf okwejf okasdjf okasdjfokasdjfokasjdof waejokf asdokjfaoskd jfaoksdjf oakwjdfoka jsdfoijaoifjokdsjfaoksd foajoij fokdsjfaoskdjf ois'
+const step1Text = "Lorem ipsum dolor amet williamsburg quinoa church-key health goth shoreditch etsy cornhole fingerstache tote bag viral. Dreamcatcher gastropub waistcoat small batch celiac, gochujang lyft. Celiac hashtag cardigan beard four dollar toast snackwave tumeric etsy, pour-over art party man bun normcore messenger bag. Franzen schlitz church-key affogato, tumblr trust fund umami beard leggings ramps iceland. Hella mixtape chia direct trade, yuccie 8-bit hoodie fixie snackwave. Small batch messenger bag blue bottle, twee butcher dreamcatcher humblebrag pickled af chillwave."
 
 const step2Header1 = ''
 const step2Header2 = ''
@@ -34,7 +34,7 @@ const step3Header1 = 'What We\'ve Built'
 const step3Header2 = ''
 const step3Text = ''
 
-const step4Header1 = ''
+const step4Header1 = 'Join Our Community. Right Now.'
 const step4Header2 = ''
 const step4Text = ''
 
@@ -42,7 +42,7 @@ const callToAction = 'Get Early Access.'
 
 const titleLogoUrl = './logos/text-logo.png'
 const numPadScreenUrl = './images/num-pad-screen.png'
-const allAcountsScreenUrl = './images/all-accounts-screen.png'
+const allAccountsScreenUrl = './images/all-accounts-screen.png'
 const addTransactionScreenUrl = './images/add-transaction-screen.png'
 const iphone6Img = './images/iphone6.png'
 
@@ -214,7 +214,15 @@ class IndexTemplate extends React.Component {
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div className="small-col small-left">
-                      <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
+                      <div className="parent stacked-img">
+                        <div className="gifImage stacked-img">
+                          {/*youtubeEmbed()*/}
+                          <img src={allAccountsScreenUrl} className="top-stacked-img" />
+                        </div>
+                        <div className="image2 stacked-img">
+                          <img src={iphone6Img} className="stacked-img" />
+                        </div>
+                      </div>
                     </div>
                     <div className="small-col small-right">
                       <div>
@@ -239,7 +247,15 @@ class IndexTemplate extends React.Component {
                       <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
                     </div>
                     <div className="small-col small-right">
-                      <PageImage imageUrl={'./images/react-logo.png'} widthPx={300} />
+                      <div className="parent stacked-img">
+                        <div className="gifImage stacked-img">
+                          {/*youtubeEmbed()*/}
+                          <img src={allAccountsScreenUrl} className="top-stacked-img" />
+                        </div>
+                        <div className="image2 stacked-img">
+                          <img src={iphone6Img} className="stacked-img" />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -271,7 +287,8 @@ class IndexTemplate extends React.Component {
             <MainContent>
               <div id="testimonials" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>Work Together or Alone</h2>
+                  <h2 style={{color: "black"}}>{step4Header1}</h2>
+                  <h2 style={{color: "black"}}>{step4Header2}</h2>
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div style={styles.circleImage} className="multi-col">
