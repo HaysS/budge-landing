@@ -33,10 +33,11 @@ const step2Text = ''
 const step3Header1 = 'What We\'ve Built'
 const step3Header2 = ''
 const step3Text = ''
+const step3ImgUrl = './images/professional-cash-rain.gif'
 
 const step4Header1 = 'Join Our Community. Right Now.'
 const step4Header2 = ''
-const step4Text = ''
+const step4Text = './images/professional-cash-rain.gif'
 
 const callToAction = 'Get Early Access.'
 
@@ -225,9 +226,7 @@ class IndexTemplate extends React.Component {
                       </div>
                     </div>
                     <div className="small-col small-right">
-                      <div>
                         <p style={{}}>{step1Text}</p>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -275,15 +274,7 @@ class IndexTemplate extends React.Component {
                       <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
                     </div>
                     <div className="small-col small-right">
-                      <div className="parent stacked-img">
-                        <div className="gifImage stacked-img">
-                          {/*youtubeEmbed()*/}
-                          <img src={addTransactionScreenUrl} className="top-stacked-img" />
-                        </div>
-                        <div className="image2 stacked-img">
-                          <img src={iphone6Img} className="stacked-img" />
-                        </div>
-                      </div>
+                      <PageImage imageUrl={step3ImgUrl} widthPx={200} />
                     </div>
                   </div>
                 </div>
