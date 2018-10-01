@@ -23,9 +23,13 @@ import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
 const step1Header1 = 'Track Your Spending As You Go'
-const step1Header2 = ''
-const step1Text = "Enter When You Pay"
-const step1BulletPoints = ['Lorem ipsum dolor amet williamsburg quinoa church-key', 'Bullet 2', 'Lorem ipsum dolor amet williamsburg quinoa church-key', 'Bullet 4',]
+const step1Header2 = "Enter When You Pay"
+const step1Text = "Buying groceries, gas, or items online? Just enter the final total after you pay. We take care of the rest."
+const step1BulletPoints = [
+    ['Tired of tedious data entry?', 'Just enter your expense and category after you pay. That\'s it'],
+    ['Forget sitting down and inputing numbers all day.', 'Enter your expenses when you pay and rest easy.'], 
+    ['Stop the late fees.', 'Get reminders on recurring bills before you get in a rush to pay them.'], 
+  ]
 
 const step2Header1 = 'See How You Can Easily Save'
 const step2Header2 = ''
@@ -49,12 +53,20 @@ const addTransactionScreenUrl = './images/add-transaction-screen.png'
 const iphone6Img = './images/iphone6.png'
 
 const bulletList = (bulletPoints) => {
-  const listElements = bulletPoints.map((point) => {
-    return(<li>{point}</li>)
+  const listElements = bulletPoints.map((bulletPoint) => {
+    const boldText = bulletPoint[0]
+    const regText = bulletPoint[1]
+
+    return(
+      <li>
+        <strong>{boldText}</strong>
+        <p>{regText}</p>
+      </li>
+    )
   })
 
   return(
-    <ul>
+    <ul style={{textAlign: 'left'}}>
       {listElements}
     </ul>
   )
