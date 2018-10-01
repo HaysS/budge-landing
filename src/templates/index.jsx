@@ -26,11 +26,11 @@ const step1Header1 = 'Track Your Spending As You Go'
 const step1Header2 = ''
 const step1Text = "Lorem ipsum dolor amet williamsburg quinoa church-key health goth shoreditch etsy cornhole fingerstache tote bag viral. Dreamcatcher gastropub waistcoat small batch celiac, gochujang lyft. Celiac hashtag cardigan beard four dollar toast snackwave tumeric etsy, pour-over art party man bun normcore messenger bag. Franzen schlitz church-key affogato, tumblr trust fund umami beard leggings ramps iceland. Hella mixtape chia direct trade, yuccie 8-bit hoodie fixie snackwave. Small batch messenger bag blue bottle, twee butcher dreamcatcher humblebrag pickled af chillwave."
 
-const step2Header1 = ''
+const step2Header1 = 'See How You Can Easily Save'
 const step2Header2 = ''
 const step2Text = ''
 
-const step3Header1 = 'What We\'ve Built'
+const step3Header1 = 'Make Changes & Get Results'
 const step3Header2 = ''
 const step3Text = ''
 const step3ImgUrl = './images/professional-cash-rain.gif'
