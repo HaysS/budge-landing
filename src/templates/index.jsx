@@ -26,11 +26,11 @@ const step1Header1 = 'Track Your Spending As You Go'
 const step1Header2 = ''
 const step1Text = 'So here we go, you can tarck aoijfdowjofjwoiejfoawjlkd alksdjflkajef aodkf aowkenf aoskdjf aokwejfoa ksdjfoaksdj fokasdjf okwejf okasdjf okasdjfokasdjfokasjdof waejokf asdokjfaoskd jfaoksdjf oakwjdfoka jsdfoijaoifjokdsjfaoksd foajoij fokdsjfaoskdjf ois'
 
-const step2Header1 = 'What We\'ve Built'
+const step2Header1 = ''
 const step2Header2 = ''
 const step2Text = ''
 
-const step3Header1 = ''
+const step3Header1 = 'What We\'ve Built'
 const step3Header2 = ''
 const step3Text = ''
 
@@ -229,7 +229,7 @@ class IndexTemplate extends React.Component {
               </div>
             </MainContent>
             <MainContent>
-              <div id="portfolio" style={styles.mainDiv}>
+              <div id="screens" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
                   <h2 style={{color: "black"}}>{step2Header1}</h2>
                   <h2 style={{color: "black"}}>{step2Header2}</h2>
@@ -251,8 +251,8 @@ class IndexTemplate extends React.Component {
             <MainContent>
               <div id="portfolio" style={styles.mainDiv}>
                 <div  style={styles.mainCol}>
-                  <h2 style={{color: "black"}}>{step2Header1}</h2>
-                  <h2 style={{color: "black"}}>{step2Header2}</h2>
+                  <h2 style={{color: "black"}}>{step3Header1}</h2>
+                  <h2 style={{color: "black"}}>{step3Header2}</h2>
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div className="small-col small-left">
