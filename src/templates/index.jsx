@@ -35,7 +35,7 @@ const step3Header2 = ''
 const step3Text = ''
 const step3ImgUrl = './images/professional-cash-rain.gif'
 
-const step4Header1 = 'Join Our Community. Right Now.'
+const step4Header1 = 'Join Our Online Community!'
 const step4Header2 = ''
 const step4Text = './images/professional-cash-rain.gif'
 
@@ -226,7 +226,7 @@ class IndexTemplate extends React.Component {
                       </div>
                     </div>
                     <div className="small-col small-right">
-                        <p style={{}}>{step1Text}</p>
+                      <p style={{}}>{step1Text}</p>
                     </div>
                   </div>
                 </div>
@@ -243,7 +243,7 @@ class IndexTemplate extends React.Component {
                   <hr style={styles.regLine}/>
                   <div className="row">
                     <div className="small-col small-left">
-                      <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
+                      <p style={{}}>{step1Text}</p>
                     </div>
                     <div className="small-col small-right">
                       <div className="parent stacked-img">
@@ -269,14 +269,8 @@ class IndexTemplate extends React.Component {
                   <h2 style={{color: "black"}}>{step3Header1}</h2>
                   <h2 style={{color: "black"}}>{step3Header2}</h2>
                   <hr style={styles.regLine}/>
-                  <div className="row">
-                    <div className="small-col small-left">
-                      <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
-                    </div>
-                    <div className="small-col small-right">
-                      <PageImage imageUrl={step3ImgUrl} widthPx={200} />
-                    </div>
-                  </div>
+                  <PageImage imageUrl={step3ImgUrl} widthPx={750} />
+                  <p style={{}}>{step3Text}</p>
                 </div>
                 <br />
                 <br />
