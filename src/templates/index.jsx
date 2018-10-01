@@ -37,7 +37,7 @@ const step3Text = ''
 const callToAction = 'Get Early Access.'
 
 const titleLogoUrl = './logos/text-logo.png'
-const gifUrl = './images/iphone-screencast-graphs.gif'
+const iphoneImgUrl = './images/num-pad-screen.png'
 const iphone6Img = './images/iphone6.png'
 
 const youtubeEmbed = () => {
@@ -177,7 +177,7 @@ class IndexTemplate extends React.Component {
                       <div className="parent stacked-img">
                         <div className="gifImage stacked-img">
                           {/*youtubeEmbed()*/}
-                          <img src={gifUrl} className="top-stacked-img" />
+                          <img src={iphoneImgUrl} className="top-stacked-img" />
                         </div>
                         <div className="image2 stacked-img">
                           <img src={iphone6Img} className="stacked-img" />
