@@ -206,9 +206,6 @@ class IndexTemplate extends React.Component {
             </MainHeader>
             <MainContent>
               <div id="description" style={styles.mainDiv}>
-                <br />
-                <br />
-                <br />
                 <div  style={styles.mainCol}>
                   <h2 className="step-header" style={styles.stepHeader}>{step1Header1}</h2>
                   {/*
@@ -357,8 +354,8 @@ const styles = {
   mainDiv: {
     textAlign: 'center', 
     maxWidth: "100%", 
-    background: "#262A30", 
     margin: "auto",
+    paddingTop: '0px',
   },
   stepHeader: {
     color: "black",
