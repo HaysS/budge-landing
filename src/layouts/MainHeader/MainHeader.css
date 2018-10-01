@@ -71,6 +71,8 @@
         display: flex;
         max-width: 100%;
         padding-bottom: 2%;
+        font-size: 1.4em;
+        line-height: 2em;
     }
 
     .col {
@@ -93,6 +95,7 @@
     }
 
     .step-header {
+      font-size: 1.5em;
       padding-top: 8%;
     }
 
