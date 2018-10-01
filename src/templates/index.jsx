@@ -34,6 +34,8 @@ const step3Header1 = ''
 const step3Header2 = ''
 const step3Text = ''
 
+const callToAction = 'Get Early Access.'
+
 const titleLogoUrl = './logos/text-logo.png'
 const gifUrl = './images/iphone-screencast-graphs.gif'
 const iphone6Img = './images/iphone6.png'
@@ -106,19 +108,18 @@ class IndexTemplate extends React.Component {
     this.setState({ menuOpen: false });
   };
 
-  showSignup() {
-    const text = 'Get Early Access.'
+  showSignup() {    
     if(this.state.width < 768)
       return(
         <div id="signup" style={styles.signupSmall}>
-          <h2 style={{color: "black", paddingBottom: '20px'}}>{text}</h2>
+          <h2 style={{color: "black", paddingBottom: '20px'}}>{callToAction}</h2>
           <PageEmailForm />
         </div>
       )
     else
       return(
         <div id="signup" style={styles.signup}>
-          <h2 style={{color: "black", paddingBottom: '20px'}}>{text}</h2>
+          <h2 style={{color: "black", paddingBottom: '20px'}}>{callToAction}</h2>
           <PageEmailForm />
         </div>
       )
