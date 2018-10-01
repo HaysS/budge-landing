@@ -21,6 +21,11 @@
     width: 293px;
 }
 
+.top-stacked-img {
+    height: 465px;
+    width: 262px;
+}
+
 .parent {
     position: relative;
     top: 0;
@@ -30,12 +35,20 @@
     padding-bottom: 5%;
 }
 
-.image1 {
+.youtube1 {
   position: relative;
   top: 65px;
   left: 17px;
   z-index: 1;
 }
+
+.gifImage {
+  position: relative;
+  top: 65px;
+  left: 0px;
+  z-index: 1;
+}
+
 .image2 {
   position: absolute;
   top: 0px;

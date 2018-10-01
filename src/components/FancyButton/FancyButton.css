@@ -16,7 +16,7 @@
     white-space: nowrap;
     border-radius: 3px;
     transition: all 0.5s ease;
-    background-color: rgba(49, 188, 121, 0.8);
+    background-color: rgba(216, 123, 30, 0.8);
     text-decoration: none;
     margin-bottom: 0px;
     overflow: auto;
@@ -24,7 +24,7 @@
 }
 
 .fancy-button::before {
-    background-color: rgba(49, 188, 121, 1);
+    background-color: rgba(216, 123, 30, 1);
     font-weight: bold;
     position: relative;
     top: 1px;
@@ -35,7 +35,7 @@
     margin-bottom: 0px;
     padding: 1em 1em;
     font-size: 21px;
-    background-color: rgba(49, 188, 121, 1);
+    background-color: rgba(216, 123, 30, 1);
 }
 
 .fancy-button:focus {

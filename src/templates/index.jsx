@@ -24,7 +24,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
 const step1Header1 = 'Track Your Spending As You Go'
 const step1Header2 = ''
-const step1Text = ''
+const step1Text = 'So here we go, you can tarck aoijfdowjofjwoiejfoawjlkd alksdjflkajef aodkf aowkenf aoskdjf aokwejfoa ksdjfoaksdj fokasdjf okwejf okasdjf okasdjfokasdjfokasjdof waejokf asdokjfaoskd jfaoksdjf oakwjdfoka jsdfoijaoifjokdsjfaoksd foajoij fokdsjfaoskdjf ois'
 
 const step2Header1 = 'What We\'ve Built'
 const step2Header2 = ''
@@ -35,7 +35,7 @@ const step3Header2 = ''
 const step3Text = ''
 
 const titleLogoUrl = './logos/text-logo.png'
-const gifUrl = './images/sample-project-2.gif'
+const gifUrl = './images/iphone-screencast-graphs.gif'
 const iphone6Img = './images/iphone6.png'
 
 const youtubeEmbed = () => {
@@ -107,7 +107,7 @@ class IndexTemplate extends React.Component {
   };
 
   showSignup() {
-    const text = 'Download Now.'
+    const text = 'Get Early Access.'
     if(this.state.width < 768)
       return(
         <div id="signup" style={styles.signupSmall}>
@@ -174,8 +174,9 @@ class IndexTemplate extends React.Component {
 
                     <div className="col right">
                       <div className="parent stacked-img">
-                        <div className="image1 stacked-img">
-                          {youtubeEmbed()}
+                        <div className="gifImage stacked-img">
+                          {/*youtubeEmbed()*/}
+                          <img src={gifUrl} className="top-stacked-img" />
                         </div>
                         <div className="image2 stacked-img">
                           <img src={iphone6Img} className="stacked-img" />
