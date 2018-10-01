@@ -217,7 +217,7 @@ class IndexTemplate extends React.Component {
                       <div className="parent stacked-img">
                         <div className="gifImage stacked-img">
                           {/*youtubeEmbed()*/}
-                          <img src={allAccountsScreenUrl} className="top-stacked-img" />
+                          <img src={addTransactionScreenUrl} className="top-stacked-img" />
                         </div>
                         <div className="image2 stacked-img">
                           <img src={iphone6Img} className="stacked-img" />
@@ -275,7 +275,15 @@ class IndexTemplate extends React.Component {
                       <PageImage imageUrl={'./images/node-js-logo.png'} widthPx={200} />
                     </div>
                     <div className="small-col small-right">
-                      <PageImage imageUrl={'./images/react-logo.png'} widthPx={300} />
+                      <div className="parent stacked-img">
+                        <div className="gifImage stacked-img">
+                          {/*youtubeEmbed()*/}
+                          <img src={addTransactionScreenUrl} className="top-stacked-img" />
+                        </div>
+                        <div className="image2 stacked-img">
+                          <img src={iphone6Img} className="stacked-img" />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
