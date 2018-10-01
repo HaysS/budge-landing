@@ -360,10 +360,9 @@ const styles = {
   mainCol: {
     textAlign: 'center', 
     background: "rgba(255, 255, 255, 1)", 
-    width: "70%", 
+    width: "90%", 
     margin: "auto",
     padding: "3.5% 6%",
-    borderRadius: '20px',
   },
   regLine: {
     height: '3px', 
