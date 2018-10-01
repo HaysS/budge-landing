@@ -24,11 +24,12 @@ import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
 const step1Header1 = 'Track Your Spending As You Go'
 const step1Header2 = ''
-const step1Text = "Lorem ipsum dolor amet williamsburg quinoa church-key health goth shoreditch etsy cornhole fingerstache tote bag viral. Dreamcatcher gastropub waistcoat small batch celiac, gochujang lyft. Celiac hashtag cardigan beard four dollar toast snackwave tumeric etsy, pour-over art party man bun normcore messenger bag. Franzen schlitz church-key affogato, tumblr trust fund umami beard leggings ramps iceland. Hella mixtape chia direct trade, yuccie 8-bit hoodie fixie snackwave. Small batch messenger bag blue bottle, twee butcher dreamcatcher humblebrag pickled af chillwave."
+const step1Text = "Enter When You Pay"
+const step1BulletPoints = ['Lorem ipsum dolor amet williamsburg quinoa church-key', 'Bullet 2', 'Lorem ipsum dolor amet williamsburg quinoa church-key', 'Bullet 4',]
 
 const step2Header1 = 'See How You Can Easily Save'
 const step2Header2 = ''
-const step2Text = ''
+const step2Text = "Lorem ipsum dolor amet williamsburg quinoa church-key health goth shoreditch etsy cornhole fingerstache tote bag viral. Dreamcatcher gastropub waistcoat small batch celiac, gochujang lyft. Celiac hashtag cardigan beard four dollar toast snackwave tumeric etsy, pour-over art party man bun normcore messenger bag. Franzen schlitz church-key affogato, tumblr trust fund umami beard leggings ramps iceland. Hella mixtape chia direct trade, yuccie 8-bit hoodie fixie snackwave. Small batch messenger bag blue bottle, twee butcher dreamcatcher humblebrag pickled af chillwave."
 
 const step3Header1 = 'Make Changes & Get Results'
 const step3Header2 = ''
@@ -46,6 +47,18 @@ const numPadScreenUrl = './images/num-pad-screen.png'
 const allAccountsScreenUrl = './images/all-accounts-screen.png'
 const addTransactionScreenUrl = './images/add-transaction-screen.png'
 const iphone6Img = './images/iphone6.png'
+
+const bulletList = (bulletPoints) => {
+  const listElements = bulletPoints.map((point) => {
+    return(<li>{point}</li>)
+  })
+
+  return(
+    <ul>
+      {listElements}
+    </ul>
+  )
+}
 
 const youtubeEmbed = () => {
     const aspectRatio = 16/9
@@ -224,8 +237,9 @@ class IndexTemplate extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div className="small-col small-right">
-                      <p style={{}}>{step1Text}</p>
+                    <div className="small-col small-right text">
+                        <p style={{}}>{step1Text}</p>
+                        {bulletList(step1BulletPoints)}
                     </div>
                   </div>
                 </div>
@@ -243,7 +257,7 @@ class IndexTemplate extends React.Component {
                   */}
                   <hr style={styles.regLine}/>
                   <div className="row">
-                    <div className="small-col small-left">
+                    <div className="small-col small-left text">
                       <p style={{}}>{step1Text}</p>
                     </div>
                     <div className="small-col small-right">
