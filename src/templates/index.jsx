@@ -26,7 +26,7 @@ const step1Header1 = 'Track Your Spending As You Go'
 const step1Header2 = "Enter When You Pay"
 const step1Text = "Buying groceries, gas, or items online? Just enter the final total after you pay. We take care of the rest."
 const step1BulletPoints = [
-    ['Tired of tedious data entry?', 'Just enter your expense and category after you pay. That\'s it'],
+    ['Tired of tedious data entry?', 'Just enter your expense and category after you pay. That\'s it.'],
     ['Forget sitting down and inputing numbers all day.', 'Enter your expenses when you pay and rest easy.'], 
     ['Stop the late fees.', 'Get reminders on recurring bills before you get in a rush to pay them.'], 
   ]
