@@ -33,7 +33,7 @@ const step1BulletPoints = [
 
 const step2Header1 = 'See How You Can Easily Save'
 const step2Header2 = 'Find Where You Can Save'
-const step2Text = "Wondering where your money is going? GetRich will show you. "
+const step2Text = "Wondering where your money is going? We'll show you. "
 const step2BulletPoints = [
     ['Tired of tedious data entry?', 'Just enter your expense and category after you pay. That\'s it.'],
     ['Forget sitting down and inputing numbers all day.', 'Enter your expenses when you pay and rest easy.'], 
@@ -197,7 +197,7 @@ class IndexTemplate extends React.Component {
                   <div className="row">
                     <div className="col left">
                       <div style={{paddingBottom: '1em'}}>
-                        <PageImage imageUrl={titleLogoUrl} widthPx={200} />
+                        <PageImage imageUrl={titleLogoUrl} widthPx={210} />
                       </div>
                       <PageDescription text={config.siteDescription} />
                       <Link
