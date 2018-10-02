@@ -33,7 +33,7 @@ const step1BulletPoints = [
 
 const step2Header1 = 'See How You Can Easily Save'
 const step2Header2 = 'Find Where You Can Save'
-const step2Text = "Buying groceries, gas, or items online? Just enter the final total after you pay. We take care of the rest."
+const step2Text = "Wondering where your money is going? GetRich will show you. "
 const step2BulletPoints = [
     ['Tired of tedious data entry?', 'Just enter your expense and category after you pay. That\'s it.'],
     ['Forget sitting down and inputing numbers all day.', 'Enter your expenses when you pay and rest easy.'], 
@@ -49,7 +49,7 @@ const step4Header1 = 'Become an Exclusive Member.'
 const step4Header2 = ''
 const step4Text = './images/professional-cash-rain.gif'
 
-const callToAction = 'Get Early Access'
+const callToAction = 'GET ACCESS NOW!'
 
 const titleLogoUrl = './logos/text-logo.png'
 const numPadScreenUrl = './images/num-pad-screen.png'
