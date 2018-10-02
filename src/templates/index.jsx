@@ -32,8 +32,13 @@ const step1BulletPoints = [
   ]
 
 const step2Header1 = 'See How You Can Easily Save'
-const step2Header2 = ''
-const step2Text = "Lorem ipsum dolor amet williamsburg quinoa church-key health goth shoreditch etsy cornhole fingerstache tote bag viral. Dreamcatcher gastropub waistcoat small batch celiac, gochujang lyft. Celiac hashtag cardigan beard four dollar toast snackwave tumeric etsy, pour-over art party man bun normcore messenger bag. Franzen schlitz church-key affogato, tumblr trust fund umami beard leggings ramps iceland. Hella mixtape chia direct trade, yuccie 8-bit hoodie fixie snackwave. Small batch messenger bag blue bottle, twee butcher dreamcatcher humblebrag pickled af chillwave."
+const step2Header2 = 'Find Where You Can Save'
+const step2Text = "Buying groceries, gas, or items online? Just enter the final total after you pay. We take care of the rest."
+const step2BulletPoints = [
+    ['Tired of tedious data entry?', 'Just enter your expense and category after you pay. That\'s it.'],
+    ['Forget sitting down and inputing numbers all day.', 'Enter your expenses when you pay and rest easy.'], 
+    ['Stop the late fees.', 'Get reminders on recurring bills before you get in a rush to pay them.'], 
+  ]
 
 const step3Header1 = 'Make Changes & Get Results'
 const step3Header2 = ''
@@ -280,7 +285,8 @@ class IndexTemplate extends React.Component {
                     </div>
                     <div className="small-col small-right text">
                       <h3>{step2Header2}</h3>
-                      <p style={{}}>{step1Text}</p>
+                      <p style={{}}>{step2Text}</p>
+                      {bulletList(step2BulletPoints)}
                     </div>
                   </div>
                 </div>
