@@ -35,7 +35,7 @@ const step2Header1 = 'See How You Can Easily Save'
 const step2Header2 = 'Find Where You Can Save'
 const step2Text = "Wondering where your money is going? We'll show you. "
 const step2BulletPoints = [
-    ['Get expert advice on how to maximize your finances.', 'We give you immediate ways to save'],
+    ['Get expert advice on how to maximize your finances.', 'We give you immediate ways to save.'],
     ['Get a step-by-step plan to improve.', 'Learn exactly how to save on your biggest expenses.'], 
     ['Stop doing all the math.', 'Minimize the time it takes for you to save money.'], 
   ]
