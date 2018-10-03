@@ -35,9 +35,9 @@ const step2Header1 = 'See How You Can Easily Save'
 const step2Header2 = 'Find Where You Can Save'
 const step2Text = "Wondering where your money is going? We'll show you. "
 const step2BulletPoints = [
-    ['Tired of tedious data entry?', 'Just enter your expense and category after you pay. That\'s it.'],
-    ['Forget sitting down and inputing numbers all day.', 'Enter your expenses when you pay and rest easy.'], 
-    ['Stop the late fees.', 'Get reminders on recurring bills before you get in a rush to pay them.'], 
+    ['Get expert advice on how to maximize your finances.', 'We give you immediate ways to save'],
+    ['Get a step-by-step plan to improve.', 'We\'ll tell you exactly how to save on your biggest expenses.'], 
+    ['Stop doing all the math.', 'We minimze the time it takes for you to find ways to save'], 
   ]
 
 const step3Header1 = 'Make Changes & Get Results'
